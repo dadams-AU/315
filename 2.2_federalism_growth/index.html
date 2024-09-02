@@ -264,7 +264,20 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
     <script>
-        Reveal.initialize();
+        Reveal.initialize({
+            // Presentation Size
+            width: 960,
+            height: 700,
+            margin: 0.04,
+            minScale: 0.2,
+            maxScale: 2,
+            
+            // Enable the speaker notes plugin
+            plugins: [ RevealNotes ],
+            
+            // Other settings remain the same
+        });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"></script>
 </body>
 </html>
