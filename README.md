@@ -10,7 +10,7 @@ To view the lectures, simply click on the links below:
 1. [Week 1, Lecture 1: Introduction to Public Policy](https://dadams-au.github.io/repo-name/week1-lecture1.html)
 2. [Week 1, Lecture 2: Policy Process Overview](https://dadams-au.github.io/repo-name/week1-lecture2.html)
 3. [Week 2, Lecture 1: Federalism and Intergovernmental Relations](https://dadams-au.github.io/repo-name/week2-lecture1.html)
-4. [Week 2, Lecture 2: Federalism, Government Growth, and State Policy Capacity](https://github.com/dadams-AU/315/blob/main/2.2_federalism_growth/index.html)
+4. [Week 2, Lecture 2: Federalism, Government Growth, and State Policy Capacity](https://raw.githubusercontent.com/dadams-AU/315/main/2.2_federalism_growth/index.html)
 
 (Continue adding links for all your lectures)
 
