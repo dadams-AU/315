@@ -1,0 +1,122 @@
+/* Custom CSS for Reveal.js Lecture Slides */
+
+/* Root font size for easier rem units */
+:root {
+    font-size: 16px;
+  }
+  
+  /* Responsive base font size */
+  .reveal {
+    font-size: 2rem; /* Default size, equivalent to 32px if root is 16px */
+  }
+  
+  /* Responsive font sizes */
+  @media (max-width: 600px) {
+    .reveal { font-size: 1.5rem; } /* Smaller size for small screens */
+  }
+  
+  @media (min-width: 1200px) {
+    .reveal { font-size: 2.5rem; } /* Larger size for big screens */
+  }
+  
+  /* Slide layout and alignment */
+  .reveal .slides {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .reveal .slides > section {
+    width: 100%;
+  }
+  
+  /* Text alignment */
+  .reveal .slides h1,
+  .reveal .slides h2,
+  .reveal .slides h3,
+  .reveal .slides h4,
+  .reveal .slides h5,
+  .reveal .slides h6 {
+    text-align: center;
+  }
+  
+  .reveal .slides p,
+  .reveal .slides ul,
+  .reveal .slides ol {
+    text-align: left;
+  }
+  
+  /* Improved readability */
+  .reveal {
+    line-height: 1.4;
+  }
+  
+  /* Responsive heading sizes */
+  .reveal h1 { font-size: 2.5em; }
+  .reveal h2 { font-size: 2em; }
+  .reveal h3 { font-size: 1.5em; }
+  .reveal h4 { font-size: 1.25em; }
+  
+  /* Emphasis for important points */
+  .reveal strong {
+    color: #e7ad52;
+  }
+  
+  /* Code blocks */
+  .reveal pre {
+    max-height: 400px;
+    overflow-y: auto;
+    font-size: 0.8em;
+  }
+  
+  /* Images */
+  .reveal img {
+    max-height: 60vh; /* Responsive image height */
+    width: auto;
+    margin: 20px auto;
+  }
+  
+  /* Custom classes */
+  .reveal .small-text {
+    font-size: 0.7em;
+  }
+  
+  .reveal .highlight-box {
+    background-color: rgba(255, 255, 0, 0.2);
+    border: 2px solid #e7ad52;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Improved list spacing */
+  .reveal ul, 
+  .reveal ol {
+    display: block;
+    margin-left: 1.5em;
+  }
+  
+  .reveal li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Footer for slide numbers or other persistent info */
+  .reveal .slide-footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.4em;
+    color: #888;
+  }
+  
+  /* Transitions */
+  .reveal .slides section {
+    transition: transform 0.8s ease, opacity 0.8s ease;
+  }
+  
+  /* Ensure content fits on slides */
+  .reveal .slides section {
+    height: 100%;
+    overflow-y: auto;
+  }

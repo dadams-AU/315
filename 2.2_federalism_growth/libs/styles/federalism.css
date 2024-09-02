@@ -1,0 +1,45 @@
+/* Styles for Eras of Federalism Slide */
+.federalism-eras h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .federalism-eras .timeline {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .federalism-eras .era {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .federalism-eras .era-name {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 1.2em;
+  }
+  
+  .federalism-eras .era-period {
+    float: right;
+    color: #7f8c8d;
+  }
+  
+  .federalism-eras .era-description {
+    margin-top: 5px;
+    color: #34495e;
+    font-style: italic;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .federalism-eras .era-period {
+      display: block;
+      float: none;
+      margin-top: 5px;
+    }
+  }
