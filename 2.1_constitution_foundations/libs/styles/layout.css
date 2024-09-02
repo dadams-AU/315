@@ -1,13 +1,28 @@
+.reveal .slides {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  /* Aligns slide content to the left */
+  justify-content: flex-start;  /* Aligns content to the top */
+}
 
-  
-  .reveal .slides {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.reveal .slides > section {
+  width: 100%;  /* Ensures the section takes full width */
+}
 
-  
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides h5,
+.reveal .slides h6 {
+  text-align: center;  /* Centers all headers */
+}
+
+.reveal .slides p,
+.reveal .slides ul,
+.reveal .slides ol {
+  text-align: left;  /* Left-aligns paragraphs and lists */
+}
   
   /*********************************************
    * Mostly Image
