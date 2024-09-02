@@ -1,7 +1,7 @@
  
 # POSC 315 - Introduction to Public Policy
 
-Welcome to POSC 315 - Introduction to Public Policy. This repository contains the lecture presentations for the course, hosted on GitHub Pages.
+Welcome to POSC 315 - Introduction to Public Policy. This repository contains the lecture presentations for the course, hosted on GitHub Pages and [315.dadams.io](https://315.dadams.io).
 
 ## Accessing the Lectures
 
