@@ -7,8 +7,8 @@ Welcome to POSC 315 - Introduction to Public Policy. This repository contains th
 
 To view the lectures, simply click on the links below:
 
-1. [Week 1, Lecture 1: Introduction to Public Policy](week1-lecture1.html)
-2. [Week 1, Lecture 2: Policy Process Overview](week1-lecture2.html)
+1. [Week 1, Lecture 1: Introduction to Public Policy](https://raw.githubusercontent.com/dadams-AU/slides-POSC-315/main/slide%20deck/01_introduction/Introduction%20to%20Public%20Policy%20Beamer.pdf)
+2. [Week 1, Lecture 2: Policy Process Overview](https://raw.githubusercontent.com/dadams-AU/slides-POSC-315/main/slide%20deck/02_whatispolicy/what_is_public_policy.pdf)
 3. [Week 2, Lecture 1: The Constitution, Foundations, Offical Actors ](2.1_constitution_foundations/index.html)
 4. [Week 2, Lecture 2: Federalism, Government Growth, and State Policy Capacity](2.2_federalism_growth/index.html)
 
@@ -43,6 +43,12 @@ These presentations use reveal.js and are best viewed in an up-to-date web brows
 - **Email**: dpadams@fullerton.edu
 - **Website**: [https://dadams.io](https://dadams.io)
 - **Appointments**: [Schedule an Appointment](https://dadams.io/appointments)
+- **Syllabus**: [Download Syllabus](https://raw.githubusercontent.com/dadams-AU/syllabi/main/POSC%20315%20Intro%20Policy/2024-25%20Fall/posc315_fall_2024.pdf)  
+
+## Related Repositories
+
+- [POSC 315 Syllabus Repository](https://github.com/dadams-AU/syllabi)
+
 
 ## Additional Resources
 
@@ -53,6 +59,34 @@ These presentations use reveal.js and are best viewed in an up-to-date web brows
 ## Feedback and Issues
 
 If you encounter any problems with the presentations or have suggestions for improvement, please [open an issue](https://github.com/dadams-au/repo-name/issues) on this GitHub repository.
+
+## How to Contribute
+
+If you would like to contribute to the development of these materials, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes and commit them (`git commit -m 'Add feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
+
+For any issues or questions, please contact the instructor.
+
+## FAQ
+
+**Q: I can't access the slides on my browser. What should I do?**
+A: Make sure your browser is up-to-date. If you're still having issues, try clearing your browser cache or switching to a different browser.
+
+**Q: How can I print the slides?**
+A: Download the PDF version of the slides and print them from your PDF viewer.
+
+**Q: Can I suggest a topic or additional resource for the course?**
+A: Absolutely! Feel free to contact the instructor or open an issue in this repository.
+
+
+## License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
 
 ---
 
