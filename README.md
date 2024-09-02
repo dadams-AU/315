@@ -7,8 +7,8 @@ Welcome to POSC 315 - Introduction to Public Policy. This repository contains th
 
 To view the lectures, simply click on the links below:
 
-1. [Week 1, Lecture 1: Introduction to Public Policy](https://dadams-au.github.io/repo-name/week1-lecture1.html)
-2. [Week 1, Lecture 2: Policy Process Overview](https://dadams-au.github.io/repo-name/week1-lecture2.html)
+1. [Week 1, Lecture 1: Introduction to Public Policy](week1-lecture1.html)
+2. [Week 1, Lecture 2: Policy Process Overview](week1-lecture2.html)
 3. [Week 2, Lecture 1: The Constitution, Foundations, Offical Actors ](2.1_constitution_foundations/index.html)
 4. [Week 2, Lecture 2: Federalism, Government Growth, and State Policy Capacity](2.2_federalism_growth/index.html)
 
