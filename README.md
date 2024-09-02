@@ -39,7 +39,6 @@ These presentations use reveal.js and are best viewed in an up-to-date web brows
 - **Instructor**: David P. Adams, Ph.D.
 - **Office Hours**: Tuesday and Thursday, 9:30 AM - 11:00 AM
 - **Office Location**: 516 Gordon Hall
-- **Phone**: 657-278-4770
 - **Email**: dpadams@fullerton.edu
 - **Website**: [https://dadams.io](https://dadams.io)
 - **Appointments**: [Schedule an Appointment](https://dadams.io/appointments)
