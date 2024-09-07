@@ -1,93 +1,116 @@
-/* Custom CSS for Reveal.js Lecture Slides */
+/* Custom CSS for Reveal.js Lecture Slides - Widescreen Optimization */
 :root {
-    font-size: 16px; /* Slightly reduced base size for better fitting */
-}
-
-/* Base styles for reveal */
-.reveal {
-    font-size: 1.5rem; /* Reduced from 2.2rem for better fitting */
+    font-size: 18px; /* Slightly increased base size for better readability on widescreen */
+  }
+  
+  /* Base styles for reveal */
+  .reveal {
+    font-size: 1.6rem; /* Increased from 1.5rem for better visibility */
     color: #e7e7e7;
     background-color: #1c1c1c;
-    line-height: 1.3;  /* Slightly reduced for tighter text */
-}
-
-/* Responsive font sizes */
-@media (max-width: 600px) {
-    .reveal { font-size: 1rem; }
-}
-
-@media (min-width: 1200px) {
-    .reveal { font-size: 2rem; }
-}
-
-/* Slide layout and alignment */
-.reveal {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center align slides */
-    justify-content: center; /* Center align slides */
-    height: 100%; /* Ensure full height usage */
-}
-
-.reveal .slides {
-    width: 100%;
-    height: 100%; /* Full height for each slide */
+    line-height: 1.4; /* Slightly increased for better readability */
+  }
+  
+  /* Responsive font sizes */
+  @media (max-width: 800px) {
+    .reveal { font-size: 1.2rem; }
+  }
+  @media (min-width: 1600px) {
+    .reveal { font-size: 2.2rem; }
+  }
+  
+  /* Slide layout and alignment */
+  .reveal .slides {
+    width: 90%; /* Increased width to use more of the widescreen */
+    height: 90%; /* Reduced height to prevent overflow */
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertically center content */
+    justify-content: center;
     align-items: center;
-    box-sizing: border-box; /* Include padding in height calculation */
-}
-
-/* Text alignment */
-.reveal .slides h1,
-.reveal .slides h2,
-.reveal .slides h3,
-.reveal .slides h4,
-.reveal .slides h5,
-.reveal .slides h6 {
+    box-sizing: border-box;
+  }
+  
+  /* Text alignment and colors */
+  .reveal .slides h1,
+  .reveal .slides h2,
+  .reveal .slides h3,
+  .reveal .slides h4,
+  .reveal .slides h5,
+  .reveal .slides h6 {
     text-align: center;
-    color: #00ff22;
-    margin-bottom: 0.5em; /* Reduced margin for better spacing */
-}
-
-.reveal .slides p,
-.reveal .slides ul,
-.reveal .slides ol {
+    color: #00ffff; /* Changed to cyan for more visual interest */
+    margin-bottom: 0.6em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Added shadow for depth */
+  }
+  
+  .reveal .slides h1 {
+    color: #ff00ff; /* Magenta for h1, creating contrast with other headers */
+  }
+  
+  .reveal .slides p,
+  .reveal .slides ul,
+  .reveal .slides ol {
     text-align: left;
-    color: #e7e7e7;
-    max-width: 90%; /* Prevent text from stretching too wide */
-    margin: 0 auto; /* Center the text block */
-}
-
-/* Emphasis for important points */
-.reveal strong {
-    color: #00ff22;
-}
-
-/* Code blocks */
-.reveal pre {
-    max-height: 300px; /* Reduced height */
+    color: #f0f0f0; /* Slightly lighter text for better contrast */
+    max-width: 95%; /* Increased width for widescreen */
+    margin: 0 auto;
+  }
+  
+  /* Emphasis for important points */
+  .reveal strong {
+    color: #ff8c00; /* Changed to dark orange for more visual interest */
+    font-weight: bold;
+  }
+  
+  /* Code blocks */
+  .reveal pre {
+    max-height: 350px; /* Increased height for widescreen */
     overflow-y: auto;
-    font-size: 0.8em; /* Smaller font size for code */
+    font-size: 0.9em; /* Slightly larger font size for code */
     background-color: #2b2b2b;
     color: #f1f1f1;
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-
-/* Images */
-.reveal img {
-    max-height: 50vh; /* Reduced from 60vh */
+    padding: 0.7rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Added shadow for depth */
+  }
+  
+  /* Images */
+  .reveal img {
+    max-height: 55vh; /* Increased from 50vh for widescreen */
     width: auto;
-    max-width: 90%; /* Prevent images from overflowing */
-    margin: 10px auto;
+    max-width: 95%; /* Increased from 90% for widescreen */
+    margin: 15px auto;
     display: block;
-    border: 2px solid #fff;
-}
-
-/* h1 color */
-.reveal .slides h1 {
-    color: #ffd700;
-}
+    border: 3px solid #00ffff; /* Changed border color to match headers */
+    border-radius: 10px; /* Added rounded corners */
+  }
+  
+  /* Additional styling for lists */
+  .reveal ul, .reveal ol {
+    padding-left: 2em;
+  }
+  
+  .reveal li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Blockquotes */
+  .reveal blockquote {
+    border-left: 4px solid #00ffff; /* Cyan border to match headers */
+    padding-left: 1em;
+    font-style: italic;
+    background-color: rgba(0, 255, 255, 0.1); /* Slight cyan background */
+  }
+  
+  /* Links */
+  .reveal a {
+    color: #ff69b4; /* Hot pink for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .reveal a:hover {
+    color: #ff1493; /* Darker pink on hover */
+    text-decoration: underline;
+  }
