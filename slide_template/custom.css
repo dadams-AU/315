@@ -1,0 +1,135 @@
+/* Custom CSS for Reveal.js Lecture Slides */
+
+/* Root font size for easier rem units */
+:root {
+    font-size: 18px;  /* Increase base size slightly for better readability */
+}
+  
+/* Responsive base font size for projectors */
+.reveal {
+    font-size: 2.2rem;  /* Larger default size, equivalent to ~40px if root is 18px */
+    color: #e7e7e7;  /* Light text color for better contrast */
+    background-color: #1c1c1c;  /* Darker background for better projector contrast */
+}
+
+/* Responsive font sizes */
+@media (max-width: 600px) {
+    .reveal { font-size: 1.5rem; } /* Smaller size for small screens */
+}
+
+@media (min-width: 1200px) {
+    .reveal { font-size: 2.5rem; } /* Slightly larger size for big screens */
+}
+
+/* Slide layout and alignment */
+.reveal .slides {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2rem;  /* Added padding for improved spacing on the screen */
+}
+
+.reveal .slides > section {
+    width: 100%;
+    padding: 1rem 0;  /* Ensure slides have vertical space */
+}
+
+/* Text alignment */
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides h5,
+.reveal .slides h6 {
+    text-align: center;
+    color: #ffd700;  /* Use a projector-friendly color for headings */
+}
+
+.reveal .slides p,
+.reveal .slides ul,
+.reveal .slides ol {
+    text-align: left;
+    color: #e7e7e7;  /* Ensure readable text for paragraphs and lists */
+}
+
+/* Improved readability */
+.reveal {
+    line-height: 1.5;  /* Increased line height for clearer text on slides */
+}
+
+/* Responsive heading sizes */
+.reveal h1 { font-size: 2.8em; }  /* Bigger heading size for better emphasis */
+.reveal h2 { font-size: 2.3em; }
+.reveal h3 { font-size: 1.8em; }
+.reveal h4 { font-size: 1.4em; }
+
+/* Emphasis for important points */
+.reveal strong {
+    color: #ffcc00;  /* Emphasize strong text with brighter yellow for contrast */
+}
+
+/* Code blocks */
+.reveal pre {
+    max-height: 400px;
+    overflow-y: auto;
+    font-size: 1em;  /* Make code more legible */
+    background-color: #2b2b2b;  /* Dark background for code blocks */
+    color: #f1f1f1;  /* Light text for better contrast */
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Images */
+.reveal img {
+    max-height: 60vh; /* Responsive image height */
+    width: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #fff;  /* Add white border for clarity on dark background */
+}
+
+/* Custom classes */
+.reveal .small-text {
+    font-size: 0.8em;
+}
+
+.reveal .highlight-box {
+    background-color: rgba(255, 255, 0, 0.3);  /* Bright background for emphasis */
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Improved list spacing */
+.reveal ul, 
+.reveal ol {
+    display: block;
+    margin-left: 1.5em;
+}
+
+.reveal li {
+    margin-bottom: 0.7em;  /* Slightly increased spacing between list items */
+}
+
+/* Footer for slide numbers or other persistent info */
+.reveal .slide-footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.5em;
+    color: #aaa;  /* Less prominent footer text */
+}
+
+/* Transitions */
+.reveal .slides section {
+    transition: transform 0.5s ease, opacity 0.5s ease;  /* Faster transition for clarity */
+}
+
+/* Ensure content fits on slides */
+.reveal .slides section {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+}
