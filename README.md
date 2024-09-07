@@ -11,6 +11,7 @@ To view the lectures, simply click on the links below:
 2. [Week 1, Lecture 2: Policy Process Overview](https://raw.githubusercontent.com/dadams-AU/slides-POSC-315/main/slide%20deck/02_whatispolicy/what_is_public_policy.pdf)
 3. [Week 2, Lecture 1: The Constitution, Foundations, Offical Actors ](2.1_constitution_foundations/index.html)
 4. [Week 2, Lecture 2: Federalism, Government Growth, and State Policy Capacity](2.2_federalism_growth/index.html)
+5. [Week 3, Lecture 1: Understanding Policymaking: Interaction, Change, Process](3.1_understanding_policymaking/index.html)
 
 
 ## Navigation Tips
