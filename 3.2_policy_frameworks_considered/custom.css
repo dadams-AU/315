@@ -1,8 +1,8 @@
 :root {
   /* Updated modern color palette */
-  --main-bg-color: #0e141b; /* Dark navy background */
-  --text-color: #ffffff; /* White text for better contrast */
-  --heading-color: #00c3e3; /* Bright cyan for headings */ 
+  --main-bg-color: #19232a; /* Dark blue background */
+  --text-color: #e4e8eb; /* Light gray text for good contrast */
+  --heading-color: #00c3e3; /* Bright cyan for headings */
   --emphasis-color: #f9a825; /* Vibrant yellow for emphasis */
   --link-color: #ff6f61; /* Coral for links */
   --code-bg-color: #263238; /* Dark slate for code blocks */
@@ -18,6 +18,10 @@ body {
   color: var(--text-color);
   background-color: var(--main-bg-color);
   line-height: 1.7;
+  margin: 0; /* Remove default margin for full-screen presentation */
+  min-height: 100vh; /* Ensure content fills the viewport height */
+  display: flex; /* Allow stacking content vertically */
+  flex-direction: column; /* Align content top to bottom */
 }
 
 /* Responsive font sizing */
@@ -32,11 +36,11 @@ body {
 .reveal .slides {
   width: 100%; /* Expand slide width to fill screen */
   height: auto; /* Allow height to adjust based on content */ 
-  padding: 2rem 3rem; /* Adjust padding for better use of space */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; 
-  align-items: flex-start;
+  padding: 4rem 6rem; /* Adjust padding for a balanced look */
+  display: flex; /* Allow stacking content vertically within slides */
+  flex-direction: column; /* Align content top to bottom */
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center; /* Center content horizontally */ /* Experiment with center-left or left for different looks */
   box-sizing: border-box;
 }
 
@@ -48,6 +52,7 @@ body {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
   font-weight: 700; 
   margin-bottom: 1.5rem; /* Add spacing after headings */
+  text-align: center; /* Center headings for better emphasis */
 }
 
 .reveal .slides h1 { font-size: 4rem; }
@@ -58,10 +63,10 @@ body {
 .reveal .slides p,
 .reveal .slides ul, 
 .reveal .slides ol {
-  text-align: left;
+  text-align: left; /* Align text left for easier reading (Experiment with center) */
   margin: 0 0 2rem 0; /* Increase bottom margin for better pacing */
   line-height: 1.8;
-  max-width: 100%; 
+  max-width: 70%; /* Limit text width for better readability on large screens (Adjust as needed) */
   font-weight: 500; /* Slightly bold for projection */
 }
 
@@ -75,8 +80,6 @@ body {
   font-size: 1.6rem; /* Bump up code font size */
 }
 
-/* Animated slide transitions */ 
+/* Animated slide transitions (Optional) */
 .reveal .slides section {
-  transition: transform 0.8s cubic-bezier(0.260, 0.860, 0.440, 0.985),
-              opacity 0.8s cubic-bezier(0.260, 0.860, 0.440, 0.985);
-}
+  transition: transform
