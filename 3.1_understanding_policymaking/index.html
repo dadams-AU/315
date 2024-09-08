@@ -3,15 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Understanding Public Policymaking</title>
+    <title>Understanding Public Policymaking: Actor Interaction and the Policy Process</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
-    <link rel="stylesheet" href="custom.css">
+    <style>
+        :root {
+            --main-bg-color: #19232a;
+            --text-color: #e4e8eb;
+            --heading-color: #00c3e3;
+            --emphasis-color: #f9a825;
+            --link-color: #ff6f61;
+            --code-bg-color: #263238;
+            --blockquote-bg-color: rgba(0, 195, 227, 0.15);
+        }
+        body {
+            font-size: 24px;
+            background-color: var(--main-bg-color);
+            color: var(--text-color);
+            margin: 0;
+            font-family: "DejaVu Sans", sans-serif;
+        }
+        .reveal {
+            font-size: 2.4rem;
+            color: var(--text-color);
+            background-color: var(--main-bg-color);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        @media (max-width: 1024px) {
+            .reveal { font-size: 1.8rem; }
+        }
+        @media (max-width: 600px) {
+            .reveal { font-size: 1.2rem; }
+        }
+        .reveal .slides {
+            width: 100%;
+            height: auto;
+            padding: 4rem 6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .reveal .slides h1,
+        .reveal .slides h2,
+        .reveal .slides h3,
+        .reveal .slides h4 {
+            color: var(--heading-color);
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .reveal .slides h1 { font-size: 4rem; }
+        .reveal .slides h2 { font-size: 3.2rem; }
+        .reveal .slides h3 { font-size: 2.6rem; }
+        .reveal .slides h4 { font-size: 2.2rem; }
+        .reveal .slides p,
+        .reveal .slides ul,
+        .reveal .slides ol {
+            text-align: left;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            max-width: 90%;
+            font-weight: 500;
+        }
+        .reveal .slides ul {
+            list-style-type: disc;
+            margin-left: 2rem;
+        }
+        .reveal .slides ol {
+            list-style-type: decimal;
+            margin-left: 2rem;
+        }
+        .reveal pre {
+            background-color: var(--code-bg-color);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+            overflow-x: auto;
+            font-size: 1.6rem;
+        }
+        .reveal blockquote {
+            background-color: var(--blockquote-bg-color);
+            padding: 1rem 2rem;
+            border-left: 4px solid var(--heading-color);
+            margin: 1.5rem 0;
+            font-style: italic;
+        }
+        .reveal .slides em {
+            color: var(--emphasis-color);
+            font-weight: bold;
+            background-color: rgba(249, 168, 37, 0.2);
+            padding: 0.2rem 0.5rem;
+            border-radius: 5px;
+        }
+        .reveal a {
+            color: var(--link-color);
+            text-decoration: underline;
+        }
+        .reveal .slides section {
+            transition: transform 0.5s ease-in-out;
+        }
+        
+        /* Styles for scrollable slides */
+        .reveal .slides section {
+            height: 100%;
+            overflow-y: auto;
+            padding-right: 20px;
+        }
+        .reveal .slides section::-webkit-scrollbar {
+            width: 8px;
+        }
+        .reveal .slides section::-webkit-scrollbar-track {
+            background: var(--main-bg-color);
+        }
+        .reveal .slides section::-webkit-scrollbar-thumb {
+            background-color: var(--heading-color);
+            border-radius: 4px;
+        }
+        .reveal .slides section::-webkit-scrollbar-thumb:hover {
+            background-color: var(--emphasis-color);
+        }
+    </style>
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
+            <!-- Slide content remains the same as in the original HTML -->
             <!-- Slide 1: Title Slide -->
             <section>
                 <h1>Understanding Public Policymaking</h1>
@@ -21,195 +144,220 @@
                 <p>Week 3 - Lecture 3.1</p>
             </section>
 
-            <!-- Slide 2: Theories of the Group -->
-            <section>
-                <section>
-                    <h1>Theories of the Group</h1>
-                </section>
-            
-                <section>
-                    <h2>Theories of the Group: Introduction</h2>
-                    <ul>
-                        <li>Public policy results from interactions among groups with different interests and resources.</li>
-                        <li>Understanding group interaction is key to understanding policymaking.</li>
-                        <li>Two main theories: elite theory and pluralist theory.</li>
-                        <li>These theories offer different perspectives on power distribution and policy formation.</li>
-                    </ul>
-                </section>
+    <!-- Slide 2: Theories of the Group -->
+    <section>
+        <section>
+            <h1>Theories of the Group</h1>
+        </section>
+    
+        <section>
+            <h2>Theories of the Group: Introduction</h2>
+            <ul>
+                <li>Public policy results from interactions among groups with different interests and resources.</li>
+                <li>Understanding group interaction is key to understanding policymaking.</li>
+                <li>Two main theories: elite theory and pluralist theory.</li>
+                <li>These theories offer different perspectives on power distribution and policy formation.</li>
+            </ul>
+        </section>
 
-                <!-- Slide 3: Elite Theory -->
-                <section>
-                    <h2>Elite Theory</h2>
-                    <ul>
-                        <li>A small group with the most resources makes the most important decisions.</li>
-                        <li>These individuals are often wealthy, well-educated, and well-connected.</li>
-                        <li>Associated with C. Wright Mills' concept of the "power elite".</li>
-                        <li>Different elites often dominate different policy areas.</li>
-                    </ul>
-                </section>
+        <!-- Slide 3: Elite Theory -->
+        <section>
+            <h2>Elite Theory</h2>
+            <ul>
+                <li>A small group with the most resources makes the most important decisions.</li>
+                <li>These individuals are often wealthy, well-educated, and well-connected.</li>
+                <li>Associated with C. Wright Mills' concept of the "power elite".</li>
+                <li>Different elites often dominate different policy areas.</li>
+            </ul>
+        </section>
 
-                <!-- Slide 4: Pluralist (Group) Theory -->
-                <section>
-                    <h2>Pluralist (Group) Theory</h2>
-                    <ul>
-                        <li>Power is distributed among various groups in society.</li>
-                        <li>Groups compete for influence over public policy.</li>
-                        <li>Associated with Robert Dahl's concept of "polyarchy".</li>
-                        <li>This theory presents a more optimistic view of power distribution.</li>
-                        <li>Acknowledges that some groups are underrepresented in the political process.</li>
-                    </ul>
-                </section>
-            </section>
+        <!-- Slide 4: Pluralist (Group) Theory -->
+        <section>
+            <h2>Pluralist (Group) Theory</h2>
+            <ul>
+                <li>Power is distributed among various groups in society.</li>
+                <li>Groups compete for influence over public policy.</li>
+                <li>Associated with Robert Dahl's concept of "polyarchy".</li>
+                <li>This theory presents a more optimistic view of power distribution.</li>
+                <li>Acknowledges that some groups are underrepresented in the political process.</li>
+            </ul>
+        </section>
+    </section>
 
-            <!-- Slide 5: Actor Interaction for Policy Change -->
-            <section>
-                <section>
-                    <h1>Actor Interaction for Policy Change</h1>
-                </section>
-            
-                <!-- Slide 6: Advocacy Coalition Framework (ACF) -->
-                <section>
-                    <h2>Advocacy Coalition Framework (ACF)</h2>
-                    <ul>
-                        <li>Focuses on the interaction of actors in the policy process.</li>
-                        <li>Actors form coalitions based on shared beliefs and interests.</li>
-                        <li>Coalitions compete to influence policy outcomes.</li>
-                        <li>This framework is useful for understanding how policy change occurs.</li>
-                    </ul>
-                </section>
-            
-                <!-- Slide 7: Institutional Analysis and Development (IAD) Framework -->
-                <section>
-                    <h2>Institutional Analysis and Development (IAD) Framework</h2>
-                    <ul>
-                        <li>Focuses on how institutions shape actor behavior.</li>
-                        <li>Institutions determine incentives and constraints for actors.</li>
-                        <li>Key to understanding policy change through an institutional lens.</li>
-                        <li>Valuable for analyzing institutions' impact on policy processes.</li>
-                    </ul>
-                </section>
+    <!-- Slide 5: Actor Interaction for Policy Change -->
+    <section>
+        <section>
+            <h1>Actor Interaction for Policy Change</h1>
+        </section>
+    
+        <!-- Slide 6: Advocacy Coalition Framework (ACF) -->
+        <section>
+            <h2>Advocacy Coalition Framework (ACF)</h2>
+            <ul>
+                <li>Focuses on the interaction of actors in the policy process.</li>
+                <li>Actors form coalitions based on shared beliefs and interests.</li>
+                <li>Coalitions compete to influence policy outcomes.</li>
+                <li>This framework is useful for understanding how policy change occurs.</li>
+            </ul>
+        </section>
+    
+        <!-- Slide 7: Institutional Analysis and Development (IAD) Framework -->
+        <section>
+            <h2>Institutional Analysis and Development (IAD) Framework</h2>
+            <ul>
+                <li>Focuses on how institutions shape actor behavior.</li>
+                <li>Institutions determine incentives and constraints for actors.</li>
+                <li>Key to understanding policy change through an institutional lens.</li>
+                <li>Valuable for analyzing institutions' impact on policy processes.</li>
+            </ul>
+        </section>
 
-                <!-- Slide 8: IAD Example from My Research -->
-                <section>
-                    <h2>IAD Example from My Research</h2>
-                    <h4><em>"Does Collaboration Matter?"</em></h4>
-                    <a href="WatershedCollaborationModel.pdf">View PDF</a>
-                </section>
+        <!-- Slide 8: IAD Example from My Research -->
+        <section>
+            <h2>IAD Example from My Research</h2>
+            <h4><em>"Does Collaboration Matter?"</em></h4>
+            <a href="WatershedCollaborationModel.pdf">View PDF</a>
+        </section>
 
-                <!-- Slide 9: Rational Choice Theory -->
-                <section>
-                    <h2>Rational Choice Theory</h2>
-                    <ul>
-                        <li>Focuses on the behavior of individual actors.</li>
-                        <li>Assumes actors are rational and self-interested.</li>
-                        <li>Actors seek to maximize their utility.</li>
-                        <li>This theory is useful for predicting behavior and policy outcomes.</li>
-                    </ul>
-                </section>
-            
-                <!-- Slide 10: Lindblom's Incrementalism -->
-                <section>
-                    <h2>Lindblom's Incrementalism</h2>
-                    <ul>
-                        <li>Proposed by Charles Lindblom.</li>
-                        <li>Policy changes occur gradually and incrementally.</li>
-                        <li>Emphasizes small, successive adjustments over radical change.</li>
-                        <li>Valuable for analyzing policy evolution over time.</li>
-                    </ul>
-                </section>
-            
-                <!-- Slide 11: Punctuated Equilibrium Theory (PET) -->
-                <section>
-                    <h2>Punctuated Equilibrium Theory (PET)</h2>
-                    <ul>
-                        <li>Policy change occurs in short, intense bursts.</li>
-                        <li>Long periods of stability exist between bursts.</li>
-                        <li>Changes are often triggered by external events or crises.</li>
-                        <li>This theory helps us understand the dynamics of policy change over time.</li>
-                    </ul>
-                </section>
+        <!-- Slide 9: Rational Choice Theory -->
+        <section>
+            <h2>Rational Choice Theory</h2>
+            <ul>
+                <li>Focuses on the behavior of individual actors.</li>
+                <li>Assumes actors are rational and self-interested.</li>
+                <li>Actors seek to maximize their utility.</li>
+                <li>This theory is useful for predicting behavior and policy outcomes.</li>
+            </ul>
+        </section>
+    
+        <!-- Slide 10: Lindblom's Incrementalism -->
+        <section>
+            <h2>Lindblom's Incrementalism</h2>
+            <ul>
+                <li>Proposed by Charles Lindblom.</li>
+                <li>Policy changes occur gradually and incrementally.</li>
+                <li>Emphasizes small, successive adjustments over radical change.</li>
+                <li>Valuable for analyzing policy evolution over time.</li>
+            </ul>
+        </section>
+    
+        <!-- Slide 11: Punctuated Equilibrium Theory (PET) -->
+        <section>
+            <h2>Punctuated Equilibrium Theory (PET)</h2>
+            <ul>
+                <li>Policy change occurs in short, intense bursts.</li>
+                <li>Long periods of stability exist between bursts.</li>
+                <li>Changes are often triggered by external events or crises.</li>
+                <li>This theory helps us understand the dynamics of policy change over time.</li>
+            </ul>
+        </section>
 
-                <!-- Slide 12: Kingdon's Three Streams and Policy Windows -->
-                <section>
-                    <h2>Kingdon's Three Streams and Policy Windows</h2>
-                    <ul>
-                        <li>Policy change occurs when three streams converge: problem, policy, and politics.</li>
-                        <li>Policy windows open when these streams align, allowing for policy change.</li>
-                        <li>Helps explain why some issues gain policy attention while others do not.</li>
-                    </ul>
-                </section>
-            </section>
+        <!-- Slide 12: Kingdon's Three Streams and Policy Windows -->
+        <section>
+            <h2>Kingdon's Three Streams and Policy Windows</h2>
+            <ul>
+                <li>Policy change occurs when three streams converge: problem, policy, and politics.</li>
+                <li>Policy windows open when these streams align, allowing for policy change.</li>
+                <li>Helps explain why some issues gain policy attention while others do not.</li>
+            </ul>
+        </section>
+    </section>
 
-            <!-- Slide 13: Policy Process Models -->
-            <section>
-                <section>
-                    <h1>Policy Process Models</h1>
-                </section>
+    <!-- Slide 13: Policy Process Models -->
+    <section>
+        <section>
+            <h1>Policy Process Models</h1>
+        </section>
 
-                <!-- Slide 14: Systems Model -->
-                <section>
-                    <h2>Systems Model</h2>
-                    <ul>
-                        <li>Views the policy process as interconnected parts that interact.</li>
-                        <li>Includes inputs, processes, outputs, and feedback loops.</li>
-                        <li>Helps understand the policy process holistically.</li>
-                        <li>Valuable for grasping complexity and interactions within the process.</li>
-                    </ul>
-                </section>
+        <!-- Slide 14: Systems Model -->
+        <section>
+            <h2>Systems Model</h2>
+            <ul>
+                <li>Views the policy process as interconnected parts that interact.</li>
+                <li>Includes inputs, processes, outputs, and feedback loops.</li>
+                <li>Helps understand the policy process holistically.</li>
+                <li>Valuable for grasping complexity and interactions within the process.</li>
+            </ul>
+        </section>
 
-                <!-- Slide 15: Stages Model -->
-                <section>
-                    <h2>Stages Model</h2>
-                    <ul>
-                        <li>Sees the policy process as a progression of stages.</li>
-                        <li>Stages include agenda setting, formulation, implementation, and evaluation.</li>
-                        <li>Aids in comprehending policy development and implementation.</li>
-                        <li>Useful for dissecting the step-by-step process of policymaking.</li>
-                    </ul>
-                </section>
+        <!-- Slide 15: Stages Model -->
+        <section>
+            <h2>Stages Model</h2>
+            <ul>
+                <li>Sees the policy process as a progression of stages.</li>
+                <li>Stages include agenda setting, formulation, implementation, and evaluation.</li>
+                <li>Aids in comprehending policy development and implementation.</li>
+                <li>Useful for dissecting the step-by-step process of policymaking.</li>
+            </ul>
+        </section>
 
-                <!-- Slide 16: Garbage Can Model -->
-                <section>
-                    <h2>Garbage Can Model</h2>
-                    <ul>
-                        <li>Perceives the policy process as chaotic and non-linear.</li>
-                        <li>Problems, solutions, participants, and opportunities mix haphazardly.</li>
-                        <li>Decisions emerge when elements coincide within the "garbage can".</li>
-                        <li>Helps grasp the randomness and intricacy of policymaking.</li>
-                    </ul>
-                </section>
-            </section>
+        <!-- Slide 16: Garbage Can Model -->
+        <section>
+            <h2>Garbage Can Model</h2>
+            <ul>
+                <li>Perceives the policy process as chaotic and non-linear.</li>
+                <li>Problems, solutions, participants, and opportunities mix haphazardly.</li>
+                <li>Decisions emerge when elements coincide within the "garbage can".</li>
+                <li>Helps grasp the randomness and intricacy of policymaking.</li>
+            </ul>
+        </section>
+    </section>
 
-            <!-- Slide 17: Conclusion -->
-            <section>
-                <section>
-                    <h1>Conclusion</h1>
-                </section>
+    <!-- Slide 17: Conclusion -->
+    <section>
+        <section>
+            <h1>Conclusion</h1>
+        </section>
 
-                <!-- Slide 18: Key Takeaways -->
-                <section>
-                    <h2>Key Takeaways</h2>
-                    <ul>
-                        <li>Understanding group dynamics is crucial for understanding policymaking.</li>
-                        <li>Elite and pluralist theories offer different perspectives on power distribution.</li>
-                        <li>ACF, IAD, rational choice, incrementalism, PET, and policy process models provide valuable frameworks for analyzing policymaking.</li>
-                        <li>Policy-making is a complex, dynamic process influenced by various actors and institutions.</li>
-                    </ul>
-                </section>
+        <!-- Slide 18: Key Takeaways -->
+        <section>
+            <h2>Key Takeaways</h2>
+            <ul>
+                <li>Understanding group dynamics is crucial for understanding policymaking.</li>
+                <li>Elite and pluralist theories offer different perspectives on power distribution.</li>
+                <li>ACF, IAD, rational choice, incrementalism, PET, and policy process models provide valuable frameworks for analyzing policymaking.</li>
+                <li>Policy-making is a complex, dynamic process influenced by various actors and institutions.</li>
+            </ul>
+        </section>
 
-                <!-- Slide 19: Questions -->
-                <section>
-                    <h2>Questions?</h2>
-                    <p>Any questions or comments?</p>
-                    <h2>Due on Saturday</h2>
-                    <p>Don't forget to submit your Term Paper Proposal assignment by Saturday!</p>
-                </section>
-            </section>
+        <!-- Slide 19: Questions -->
+        <section>
+            <h2>Questions?</h2>
+            <p>Any questions or comments?</p>
+            <h2>Due on Saturday</h2>
+            <p>Don't forget to submit your Term Paper Proposal assignment by Saturday!</p>
+        </section>
+    </section>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
     <script>
-        Reveal.initialize();
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            transition: 'slide',
+            // Enable the ability to scroll within slides
+            center: false,
+            // Disable the default slide navigation
+            keyboard: {
+                13: null, // Enter
+                32: null, // Space
+                33: null, // Page up
+                34: null, // Page down
+                38: null, // Up arrow
+                40: null  // Down arrow
+            },
+            // Custom function to handle scrolling within slides
+            dependencies: [
+                {
+                    src: 'plugin/scroll/scroll.js',
+                    async: true,
+                    callback: function() {
+                        RevealScroll.init();
+                    }
+                }
+            ]
+        });
     </script>
 </body>
 </html>
