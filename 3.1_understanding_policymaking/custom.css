@@ -1,116 +1,93 @@
-/* Custom CSS for Reveal.js Lecture Slides - Widescreen Optimization */
 :root {
-    font-size: 18px; /* Slightly increased base size for better readability on widescreen */
-  }
-  
-  /* Base styles for reveal */
-  .reveal {
-    font-size: 1.6rem; /* Increased from 1.5rem for better visibility */
-    color: #e7e7e7;
-    background-color: #1c1c1c;
-    line-height: 1.4; /* Slightly increased for better readability */
-  }
-  
-  /* Responsive font sizes */
-  @media (max-width: 800px) {
-    .reveal { font-size: 1.2rem; }
-  }
-  @media (min-width: 1600px) {
-    .reveal { font-size: 2.2rem; }
-  }
-  
-  /* Slide layout and alignment */
-  .reveal .slides {
-    width: 90%; /* Increased width to use more of the widescreen */
-    height: 90%; /* Reduced height to prevent overflow */
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  
-  /* Text alignment and colors */
-  .reveal .slides h1,
-  .reveal .slides h2,
-  .reveal .slides h3,
-  .reveal .slides h4,
-  .reveal .slides h5,
-  .reveal .slides h6 {
-    text-align: center;
-    color: #00ffff; /* Changed to cyan for more visual interest */
-    margin-bottom: 0.6em;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Added shadow for depth */
-  }
-  
-  .reveal .slides h1 {
-    color: #ff00ff; /* Magenta for h1, creating contrast with other headers */
-  }
-  
-  .reveal .slides p,
-  .reveal .slides ul,
-  .reveal .slides ol {
-    text-align: left;
-    color: #f0f0f0; /* Slightly lighter text for better contrast */
-    max-width: 95%; /* Increased width for widescreen */
-    margin: 0 auto;
-  }
-  
-  /* Emphasis for important points */
-  .reveal strong {
-    color: #ff8c00; /* Changed to dark orange for more visual interest */
-    font-weight: bold;
-  }
-  
-  /* Code blocks */
-  .reveal pre {
-    max-height: 350px; /* Increased height for widescreen */
-    overflow-y: auto;
-    font-size: 0.9em; /* Slightly larger font size for code */
-    background-color: #2b2b2b;
-    color: #f1f1f1;
-    padding: 0.7rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Added shadow for depth */
-  }
-  
-  /* Images */
-  .reveal img {
-    max-height: 55vh; /* Increased from 50vh for widescreen */
-    width: auto;
-    max-width: 95%; /* Increased from 90% for widescreen */
-    margin: 15px auto;
-    display: block;
-    border: 3px solid #00ffff; /* Changed border color to match headers */
-    border-radius: 10px; /* Added rounded corners */
-  }
-  
-  /* Additional styling for lists */
-  .reveal ul, .reveal ol {
-    padding-left: 2em;
-  }
-  
-  .reveal li {
-    margin-bottom: 0.5em;
-  }
-  
-  /* Blockquotes */
-  .reveal blockquote {
-    border-left: 4px solid #00ffff; /* Cyan border to match headers */
-    padding-left: 1em;
-    font-style: italic;
-    background-color: rgba(0, 255, 255, 0.1); /* Slight cyan background */
-  }
-  
-  /* Links */
-  .reveal a {
-    color: #ff69b4; /* Hot pink for links */
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .reveal a:hover {
-    color: #ff1493; /* Darker pink on hover */
-    text-decoration: underline;
-  }
+  /* Updated modern color palette */
+  --main-bg-color: #0e141b; /* Dark navy background */
+  --text-color: #ffffff; /* White text for better contrast */
+  --heading-color: #00c3e3; /* Bright cyan for headings */
+  --emphasis-color: #f9a825; /* Vibrant yellow for emphasis */
+  --link-color: #ff6f61; /* Coral for links */
+  --code-bg-color: #263238; /* Dark slate for code blocks */
+  --blockquote-bg-color: rgba(0, 195, 227, 0.15); /* Soft cyan for blockquotes */
+}
+
+body {
+  font-size: 18px; /* Base font size */
+}
+
+.reveal {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+  line-height: 1.7;
+}
+
+/* Responsiveness for large screens */
+@media (min-width: 2000px) {
+  .reveal { font-size: 2.6rem; } /* Larger font for bigger screens */
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 1024px) {
+  .reveal { font-size: 1.4rem; } /* Adjust font size for smaller screens */
+}
+
+.reveal .slides {
+  width: 90%;
+  height: 85%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+/* Modern heading styles */
+.reveal .slides h1, .reveal .slides h2, .reveal .slides h3, .reveal .slides h4 {
+  color: var(--heading-color);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Modern shadow effect */
+  font-weight: 700;
+}
+
+.reveal .slides h1 {
+  font-size: 3.2rem;
+  color: #ff4081; /* Updated magenta for main titles */
+}
+
+.reveal .slides h2 { font-size: 2.7rem; }
+.reveal .slides h3 { font-size: 2.2rem; }
+
+/* Content improvements */
+.reveal .slides p,
+.reveal .slides ul,
+.reveal .slides ol {
+  text-align: left;
+  margin: 0 0 1.5em 0;
+  line-height: 1.8;
+  max-width: 100%;
+}
+
+/* Modern code blocks */
+.reveal pre {
+  background-color: var(--code-bg-color);
+  padding: 1.2rem;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4); /* Deep shadow for depth */
+  overflow-x: auto;
+}
+
+/* Modern links */
+.reveal a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.reveal a:hover {
+  color: #ff4081; /* Bright hover effect */
+  text-decoration: underline;
+}
+
+/* Updated transitions for slides */
+.reveal .slides section {
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
