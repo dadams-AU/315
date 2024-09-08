@@ -7,129 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
-    <style>
-        :root {
-            --main-bg-color: #19232a;
-            --text-color: #e4e8eb;
-            --heading-color: #00c3e3;
-            --emphasis-color: #f9a825;
-            --link-color: #ff6f61;
-            --code-bg-color: #263238;
-            --blockquote-bg-color: rgba(0, 195, 227, 0.15);
-        }
-        body {
-            font-size: 24px;
-            background-color: var(--main-bg-color);
-            color: var(--text-color);
-            margin: 0;
-            font-family: "DejaVu Sans", sans-serif;
-        }
-        .reveal {
-            font-size: 2.4rem;
-            color: var(--text-color);
-            background-color: var(--main-bg-color);
-            line-height: 1.7;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        @media (max-width: 1024px) {
-            .reveal { font-size: 1.8rem; }
-        }
-        @media (max-width: 600px) {
-            .reveal { font-size: 1.2rem; }
-        }
-        .reveal .slides {
-            width: 100%;
-            height: auto;
-            padding: 4rem 6rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            box-sizing: border-box;
-        }
-        .reveal .slides h1,
-        .reveal .slides h2,
-        .reveal .slides h3,
-        .reveal .slides h4 {
-            color: var(--heading-color);
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            text-align: center;
-        }
-        .reveal .slides h1 { font-size: 4rem; }
-        .reveal .slides h2 { font-size: 3.2rem; }
-        .reveal .slides h3 { font-size: 2.6rem; }
-        .reveal .slides h4 { font-size: 2.2rem; }
-        .reveal .slides p,
-        .reveal .slides ul,
-        .reveal .slides ol {
-            text-align: left;
-            margin-bottom: 2rem;
-            line-height: 1.8;
-            max-width: 90%;
-            font-weight: 500;
-        }
-        .reveal .slides ul {
-            list-style-type: disc;
-            margin-left: 2rem;
-        }
-        .reveal .slides ol {
-            list-style-type: decimal;
-            margin-left: 2rem;
-        }
-        .reveal pre {
-            background-color: var(--code-bg-color);
-            padding: 1.5rem;
-            border-radius: 12px;
-            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-            overflow-x: auto;
-            font-size: 1.6rem;
-        }
-        .reveal blockquote {
-            background-color: var(--blockquote-bg-color);
-            padding: 1rem 2rem;
-            border-left: 4px solid var(--heading-color);
-            margin: 1.5rem 0;
-            font-style: italic;
-        }
-        .reveal .slides em {
-            color: var(--emphasis-color);
-            font-weight: bold;
-            background-color: rgba(249, 168, 37, 0.2);
-            padding: 0.2rem 0.5rem;
-            border-radius: 5px;
-        }
-        .reveal a {
-            color: var(--link-color);
-            text-decoration: underline;
-        }
-        .reveal .slides section {
-            transition: transform 0.5s ease-in-out;
-        }
-        
-        /* Styles for scrollable slides */
-        .reveal .slides section {
-            height: 100%;
-            overflow-y: auto;
-            padding-right: 20px;
-        }
-        .reveal .slides section::-webkit-scrollbar {
-            width: 8px;
-        }
-        .reveal .slides section::-webkit-scrollbar-track {
-            background: var(--main-bg-color);
-        }
-        .reveal .slides section::-webkit-scrollbar-thumb {
-            background-color: var(--heading-color);
-            border-radius: 4px;
-        }
-        .reveal .slides section::-webkit-scrollbar-thumb:hover {
-            background-color: var(--emphasis-color);
-        }
-    </style>
+    <link rel="stylesheet" href="custom.css">
 </head>
 <body>
     <div class="reveal">
@@ -336,27 +214,18 @@
             hash: true,
             slideNumber: true,
             transition: 'slide',
-            // Enable the ability to scroll within slides
-            center: false,
-            // Disable the default slide navigation
-            keyboard: {
-                13: null, // Enter
-                32: null, // Space
-                33: null, // Page up
-                34: null, // Page down
-                38: null, // Up arrow
-                40: null  // Down arrow
-            },
-            // Custom function to handle scrolling within slides
-            dependencies: [
-                {
-                    src: 'plugin/scroll/scroll.js',
-                    async: true,
-                    callback: function() {
-                        RevealScroll.init();
-                    }
-                }
-            ]
+            // Enable scrolling within slides
+            overflow: 'auto',
+            // Maintain default keyboard navigation
+            keyboard: true,
+            // Center slides vertically
+            center: true,
+            // Fit slides within the available space
+            width: '100%',
+            height: '100%',
+            margin: 0.1,
+            minScale: 0.2,
+            maxScale: 1.5
         });
     </script>
 </body>
