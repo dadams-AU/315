@@ -13,6 +13,7 @@ To view the lectures, simply click on the links below:
 4. [Week 2, Lecture 2: Federalism, Government Growth, and State Policy Capacity](2.2_federalism_growth/index.html)
 5. [Week 3, Lecture 1: Understanding Policymaking: Interaction, Change, Process](3.1_understanding_policymaking/index.html)
 6. [Week 3, Lecture 2: Policy Legitimacy, Implementation, and Evaluation](3.2_legitimacy_implementation_evaluation/index.html)
+7. [Week 3, Lecture 3: Policy Tools and Design](3.3_policy_tools/index.html)
 
 
 ## Navigation Tips

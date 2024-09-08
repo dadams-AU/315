@@ -1,0 +1,155 @@
+:root {
+  /* Modern color palette */
+  --main-bg-color: #19232a; /* Dark blue background */
+  --text-color: #e4e8eb; /* Light gray text for good contrast */
+  --heading-color: #00c3e3; /* Bright cyan for headings */
+  --emphasis-color: #f9a825; /* Vibrant yellow for emphasis */
+  --link-color: #ff6f61; /* Coral for links */
+  --code-bg-color: #263238; /* Dark slate for code blocks */
+  --blockquote-bg-color: rgba(0, 195, 227, 0.15); /* Soft cyan for blockquotes */
+}
+
+body {
+  font-size: 24px; /* Larger base font size for better classroom visibility */
+  background-color: var(--main-bg-color); /* Set main background color */
+  color: var(--text-color); /* Apply text color */
+  margin: 0; /* Remove default margin */
+  font-family: "DejaVu Sans", sans-serif; /* Ensure a modern sans-serif font */
+}
+
+.reveal {
+  font-size: 2.4rem; /* Increased overall font size for visibility */
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+  line-height: 1.7;
+  min-height: 100vh; /* Ensure content fills the full screen */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 1024px) {
+  .reveal { font-size: 1.8rem; }
+}
+
+@media (max-width: 600px) { 
+  .reveal { font-size: 1.2rem; }
+}
+
+.reveal .slides {
+  width: 100%;
+  height: auto;
+  padding: 4rem 6rem; /* Ensure sufficient padding for a balanced look */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; 
+  box-sizing: border-box;
+}
+
+/* Optimize heading styles for emphasis */
+.reveal .slides h1, 
+.reveal .slides h2, 
+.reveal .slides h3 {
+  color: var(--heading-color);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  font-weight: 700; 
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.reveal .slides h1 { font-size: 4rem; }
+.reveal .slides h2 { font-size: 3.2rem; }  
+.reveal .slides h3 { font-size: 2.6rem; }
+
+/* Improve readability for text content */
+.reveal .slides p,
+.reveal .slides ul, 
+.reveal .slides ol {
+  text-align: left;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  max-width: 90%; /* Control text width for readability */
+  font-weight: 500; /* Slightly bold text for clarity on projectors */
+}
+
+/* Enhance list styles */
+.reveal .slides ul {
+  list-style-type: disc;
+  margin-left: 2rem; /* Add spacing for bullet points */
+}
+
+.reveal .slides ol {
+  list-style-type: decimal;
+  margin-left: 2rem; /* Add spacing for ordered lists */
+}
+
+/* Code block styles for better visibility */
+.reveal pre {
+  background-color: var(--code-bg-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+/* Blockquote styling */
+.reveal blockquote {
+  background-color: var(--blockquote-bg-color);
+  padding: 1rem 2rem;
+  border-left: 4px solid var(--heading-color);
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+/* Style emphasis text */
+.reveal .slides em {
+  color: var(--emphasis-color);
+  font-weight: bold;
+  background-color: rgba(249, 168, 37, 0.2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+/* Style links */
+.reveal a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+/* Animated slide transitions (Optional) */
+.reveal .slides section {
+  transition: transform 0.5s ease-in-out; /* Smooth slide transitions */
+}
+
+.reveal .slides p, 
+.reveal .slides ul, 
+.reveal .slides ol {
+  text-align: left; /* Align text to the left for better readability */
+}
+.reveal .slides ul, 
+.reveal .slides ol {
+  margin: 1rem 0; /* Set consistent margins for lists */
+  padding-left: 2rem; /* Add some indentation to bullet points */
+}
+
+ /* New styles for scrollable slides */
+ .reveal .slides section {
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 20px; /* Add some padding for the scrollbar */
+}
+.reveal .slides section::-webkit-scrollbar {
+  width: 8px;
+}
+.reveal .slides section::-webkit-scrollbar-track {
+  background: var(--main-bg-color);
+}
+.reveal .slides section::-webkit-scrollbar-thumb {
+  background-color: var(--heading-color);
+  border-radius: 4px;
+}
+.reveal .slides section::-webkit-scrollbar-thumb:hover {
+  background-color: var(--emphasis-color);
+}
