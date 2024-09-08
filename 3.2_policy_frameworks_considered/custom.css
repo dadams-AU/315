@@ -1,179 +1,82 @@
-/* Optimized CSS for Reveal.js Lecture Slides - Widescreen Enhancement */
 :root {
-  --main-bg-color: #1c1c1c;
-  --text-color: #f0f0f0;
-  --heading-color: #00d7ff;
-  --emphasis-color: #ffcc00;
-  --link-color: #ff69b4;
-  --code-bg-color: #2b2b2b;
-  --blockquote-bg-color: rgba(0, 215, 255, 0.1);
+  /* Updated modern color palette */
+  --main-bg-color: #0e141b; /* Dark navy background */
+  --text-color: #ffffff; /* White text for better contrast */
+  --heading-color: #00c3e3; /* Bright cyan for headings */ 
+  --emphasis-color: #f9a825; /* Vibrant yellow for emphasis */
+  --link-color: #ff6f61; /* Coral for links */
+  --code-bg-color: #263238; /* Dark slate for code blocks */
+  --blockquote-bg-color: rgba(0, 195, 227, 0.15); /* Soft cyan for blockquotes */
 }
 
 body {
-  font-size: 18px; /* Base font size */
+  font-size: 24px; /* Increased base font size for better classroom visibility */
 }
 
 .reveal {
-  font-size: 1.8rem; /* Increased for better visibility on large screens */
+  font-size: 2.4rem; /* Further increased overall font size */
   color: var(--text-color);
   background-color: var(--main-bg-color);
-  line-height: 1.6;
-}
-
-/* Responsive font sizes */
-@media (max-width: 1024px) {
-  .reveal { font-size: 1.4rem; }
-}
-@media (min-width: 2000px) {
-  .reveal { font-size: 2.4rem; }
-}
-
-/* Slide layout optimization */
-.reveal .slides {
-  width: 90%;
-  height: 85%;
-  padding: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* Align content to top for better visibility */
-  align-items: flex-start; /* Left-align content for easier reading */
-  box-sizing: border-box;
-}
-
-/* Heading styles */
-.reveal .slides h1,
-.reveal .slides h2,
-.reveal .slides h3,
-.reveal .slides h4,
-.reveal .slides h5,
-.reveal .slides h6 {
-  color: var(--heading-color);
-  margin-bottom: 0.8em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-weight: 700;
-  width: 100%; /* Full width for better alignment */
-}
-
-.reveal .slides h1 {
-  font-size: 3rem;
-  color: #ff00ff; /* Magenta for main titles */
-}
-
-.reveal .slides h2 { font-size: 2.5rem; }
-.reveal .slides h3 { font-size: 2rem; }
-
-/* Content styling */
-.reveal .slides p,
-.reveal .slides ul,
-.reveal .slides ol {
-  text-align: left;
-  max-width: 100%; /* Full width for widescreen */
-  margin: 0 0 1em 0; /* Add bottom margin for spacing */
   line-height: 1.7;
 }
 
-/* Lists */
-.reveal ul, .reveal ol {
-  padding-left: 1.5em;
+/* Responsive font sizing */
+@media (max-width: 1024px) {
+  .reveal { font-size: 1.8rem; } /* Slightly reduce font size for smaller screens */
 }
 
-.reveal li {
-  margin-bottom: 0.5em;
-  font-size: 1.6rem;
+@media (max-width: 600px) { 
+  .reveal { font-size: 1.2rem; } /* Further reduce for mobile devices */
 }
 
-/* Emphasized text */
-.reveal strong {
-  color: var(--emphasis-color);
-  font-weight: 700;
+.reveal .slides {
+  width: 100%; /* Expand slide width to fill screen */
+  height: auto; /* Allow height to adjust based on content */ 
+  padding: 2rem 3rem; /* Adjust padding for better use of space */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  box-sizing: border-box;
 }
 
-/* Code blocks */
-.reveal pre {
-  max-height: 400px; /* Increased for widescreen */
-  font-size: 1.2rem;
-  background-color: var(--code-bg-color);
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  overflow-x: auto; /* Horizontal scroll for long lines */
-}
-
-/* Image styles */
-.reveal img {
-  max-height: 60vh;
-  max-width: 100%;
-  margin: 1em 0;
-  border: 3px solid var(--heading-color);
-  border-radius: 8px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-}
-
-/* Blockquotes */
-.reveal blockquote {
-  border-left: 5px solid var(--heading-color);
-  padding: 0.8em 1.2em;
-  background-color: var(--blockquote-bg-color);
-  margin: 1em 0;
-  font-style: italic;
-}
-
-/* Link styles */
-.reveal a {
-  color: var(--link-color);
-  text-decoration: none;
-  transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-
-.reveal a:hover {
-  color: #ff1493;
-  text-decoration: underline;
-}
-
-/* Table styling */
-.reveal table {
-  width: 100%;
-  margin: 1em 0;
-  border-collapse: separate;
-  border-spacing: 0;
-}
-
-.reveal th, .reveal td {
-  border: 1px solid var(--heading-color);
-  padding: 0.7em;
-  text-align: left;
-}
-
-.reveal th {
-  background-color: var(--code-bg-color);
+/* Optimize heading styles for presentation */
+.reveal .slides h1, 
+.reveal .slides h2,
+.reveal .slides h3 {
   color: var(--heading-color);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  font-weight: 700; 
+  margin-bottom: 1.5rem; /* Add spacing after headings */
 }
 
-/* Footer */
-.reveal .footer {
-  position: fixed;
-  bottom: 1em;
-  left: 1em;
-  font-size: 1rem;
-  color: #a0a0a0;
+.reveal .slides h1 { font-size: 4rem; }
+.reveal .slides h2 { font-size: 3.2rem; }  
+.reveal .slides h3 { font-size: 2.6rem; }
+
+/* Improve text readability */
+.reveal .slides p,
+.reveal .slides ul, 
+.reveal .slides ol {
+  text-align: left;
+  margin: 0 0 2rem 0; /* Increase bottom margin for better pacing */
+  line-height: 1.8;
+  max-width: 100%; 
+  font-weight: 500; /* Slightly bold for projection */
 }
 
-/* Slide transitions */
+/* Enhance code block visuals */  
+.reveal pre {
+  background-color: var(--code-bg-color);
+  padding: 1.5rem;
+  border-radius: 12px; 
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  overflow-x: auto;
+  font-size: 1.6rem; /* Bump up code font size */
+}
+
+/* Animated slide transitions */ 
 .reveal .slides section {
-  transition: transform 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 0.8s ease;
-}
-
-/* Custom classes for layout */
-.reveal .column {
-  float: left;
-  width: 48%;
-  margin-right: 4%;
-}
-
-.reveal .column:last-child {
-  margin-right: 0;
-}
-
-.reveal .clear {
-  clear: both;
+  transition: transform 0.8s cubic-bezier(0.260, 0.860, 0.440, 0.985),
+              opacity 0.8s cubic-bezier(0.260, 0.860, 0.440, 0.985);
 }
