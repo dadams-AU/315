@@ -1,0 +1,152 @@
+:root {
+  /* Vibrant color palette appealing to undergrads */
+  --main-bg-color: #1a1a2e; /* Deep blue background */
+  --text-color: #e0e0e0; /* Light gray text for good contrast */
+  --heading-color: #16db93; /* Bright teal for headings */
+  --emphasis-color: #f9c74f; /* Warm yellow for emphasis */
+  --link-color: #ff6b6b; /* Coral for links */
+  --code-bg-color: #2c2c44; /* Dark slate for code blocks */
+  --blockquote-bg-color: rgba(22, 219, 147, 0.15); /* Soft teal for blockquotes */
+  --accent-color: #4361ee; /* Vibrant blue for accents */
+}
+
+body {
+  font-size: 24px;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: 'Roboto', 'Arial', sans-serif; /* Modern, clean font */
+}
+
+.reveal {
+  font-size: 2.4rem;
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive font sizes */
+@media (max-width: 1024px) { .reveal { font-size: 2rem; } }
+@media (max-width: 600px) { .reveal { font-size: 1.6rem; } }
+
+.reveal .slides {
+  width: 100%;
+  height: auto;
+  padding: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; 
+  box-sizing: border-box;
+}
+
+/* Eye-catching heading styles */
+.reveal .slides h1, 
+.reveal .slides h2, 
+.reveal .slides h3 {
+  color: var(--heading-color);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 700; 
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.reveal .slides h1 { font-size: 4.5rem; }
+.reveal .slides h2 { font-size: 3.5rem; }  
+.reveal .slides h3 { font-size: 2.8rem; }
+
+/* Improved text content readability */
+.reveal .slides p,
+.reveal .slides ul, 
+.reveal .slides ol {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  max-width: 90%;
+  font-weight: 400;
+}
+
+/* Enhanced list styles */
+.reveal .slides ul, .reveal .slides ol {
+  margin-left: 2rem;
+  padding-left: 1rem;
+}
+
+.reveal .slides li {
+  margin-bottom: 0.8rem;
+}
+
+/* Modern code block styles */
+.reveal pre {
+  background-color: var(--code-bg-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  overflow-x: auto;
+  font-size: 1.6rem;
+  border-left: 4px solid var(--accent-color);
+}
+
+/* Stylish blockquotes */
+.reveal blockquote {
+  background-color: var(--blockquote-bg-color);
+  padding: 1.2rem 2rem;
+  border-left: 4px solid var(--heading-color);
+  margin: 1.5rem 0;
+  font-style: italic;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Striking emphasis text */
+.reveal .slides em {
+  color: var(--emphasis-color);
+  font-weight: bold;
+  background-color: rgba(249, 199, 79, 0.2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* Attractive link styling */
+.reveal a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 2px solid var(--link-color);
+  transition: all 0.3s ease;
+}
+
+.reveal a:hover {
+  background-color: var(--link-color);
+  color: var(--main-bg-color);
+}
+
+/* Dynamic slide transitions */
+.reveal .slides section {
+  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* Add some fun elements */
+.reveal .slides section::after {
+  content: '🎓';
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+/* Highlight important points */
+.highlight {
+  background: linear-gradient(120deg, var(--accent-color) 0%, var(--accent-color) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.4em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+.highlight:hover {
+  background-size: 100% 88%;
+}
