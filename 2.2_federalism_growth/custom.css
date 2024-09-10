@@ -1,152 +1,159 @@
+/* Root font size for easier rem units */
 :root {
-  /* Vibrant color palette appealing to undergrads */
-  --main-bg-color: #1a1a2e; /* Deep blue background */
-  --text-color: #e0e0e0; /* Light gray text for good contrast */
-  --heading-color: #16db93; /* Bright teal for headings */
-  --emphasis-color: #f9c74f; /* Warm yellow for emphasis */
-  --link-color: #ff6b6b; /* Coral for links */
-  --code-bg-color: #2c2c44; /* Dark slate for code blocks */
-  --blockquote-bg-color: rgba(22, 219, 147, 0.15); /* Soft teal for blockquotes */
-  --accent-color: #4361ee; /* Vibrant blue for accents */
-}
-
-body {
-  font-size: 24px;
-  background-color: var(--main-bg-color);
-  color: var(--text-color);
-  margin: 0;
-  font-family: 'Roboto', 'Arial', sans-serif; /* Modern, clean font */
+  font-size: 18px;
 }
 
 .reveal {
-  font-size: 2.4rem;
-  color: var(--text-color);
-  background-color: var(--main-bg-color);
-  line-height: 1.6;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  font-size: 2.2rem;
+  color: #e7e7e7;
+  background-color: #1c1c1c;
+  line-height: 1.5;
 }
 
-/* Responsive font sizes */
-@media (max-width: 1024px) { .reveal { font-size: 2rem; } }
-@media (max-width: 600px) { .reveal { font-size: 1.6rem; } }
-
-.reveal .slides {
-  width: 100%;
-  height: auto;
-  padding: 3rem 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; 
-  box-sizing: border-box;
-}
-
-/* Eye-catching heading styles */
-.reveal .slides h1, 
-.reveal .slides h2, 
-.reveal .slides h3 {
-  color: var(--heading-color);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  font-weight: 700; 
-  margin-bottom: 1.5rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-.reveal .slides h1 { font-size: 4.5rem; }
-.reveal .slides h2 { font-size: 3.5rem; }  
-.reveal .slides h3 { font-size: 2.8rem; }
-
-/* Improved text content readability */
-.reveal .slides p,
-.reveal .slides ul, 
-.reveal .slides ol {
-  text-align: left;
-  margin-bottom: 1.5rem;
-  line-height: 1.8;
-  max-width: 90%;
-  font-weight: 400;
-}
-
-/* Enhanced list styles */
-.reveal .slides ul, .reveal .slides ol {
-  margin-left: 2rem;
-  padding-left: 1rem;
-}
-
-.reveal .slides li {
-  margin-bottom: 0.8rem;
-}
-
-/* Modern code block styles */
-.reveal pre {
-  background-color: var(--code-bg-color);
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  overflow-x: auto;
-  font-size: 1.6rem;
-  border-left: 4px solid var(--accent-color);
-}
-
-/* Stylish blockquotes */
-.reveal blockquote {
-  background-color: var(--blockquote-bg-color);
-  padding: 1.2rem 2rem;
-  border-left: 4px solid var(--heading-color);
-  margin: 1.5rem 0;
-  font-style: italic;
-  border-radius: 0 8px 8px 0;
-}
-
-/* Striking emphasis text */
-.reveal .slides em {
-  color: var(--emphasis-color);
-  font-weight: bold;
-  background-color: rgba(249, 199, 79, 0.2);
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-}
-
-/* Attractive link styling */
-.reveal a {
-  color: var(--link-color);
-  text-decoration: none;
-  border-bottom: 2px solid var(--link-color);
-  transition: all 0.3s ease;
-}
-
-.reveal a:hover {
-  background-color: var(--link-color);
-  color: var(--main-bg-color);
-}
-
-/* Dynamic slide transitions */
+/* Scrollable sections */
 .reveal .slides section {
-  transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  overflow-y: auto;
+  padding: 1rem;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
-/* Add some fun elements */
-.reveal .slides section::after {
-  content: '🎓';
+/* Hover effects on headings */
+.reveal h2:hover {
+  color: #ffcc00;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Highlight current slide */
+.reveal .slides section:target {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animated background for special slides */
+.reveal .highlight-slide {
+  background: linear-gradient(90deg, #1c1c1c, #000000);
+  animation: backgroundScroll 5s linear infinite;
+}
+
+@keyframes backgroundScroll {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Code block styling */
+.reveal pre {
+  max-height: 400px;
+  overflow-y: auto;
+  font-size: 1em;
+  background-color: #2b2b2b;
+  color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.reveal img {
+  max-height: 60vh;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #fff;
+}
+
+/* Highlight box for emphasis */
+.reveal .highlight-box {
+  background-color: rgba(255, 255, 0, 0.3);
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Federalism Eras Timeline */
+.timeline {
+  position: relative;
+  padding-left: 40px;  /* Space for the vertical line */
+  list-style: none;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.timeline:before {
+  content: '';
   position: absolute;
-  bottom: 10px;
-  right: 20px;
-  font-size: 2rem;
-  opacity: 0.5;
+  top: 0;
+  left: 20px;  /* Vertical line position */
+  height: 100%;
+  width: 4px;
+  background-color: #ffd700;  /* Gold line for better visibility */
 }
 
-/* Highlight important points */
-.highlight {
-  background: linear-gradient(120deg, var(--accent-color) 0%, var(--accent-color) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.4em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
+.era {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 20px;
 }
 
-.highlight:hover {
-  background-size: 100% 88%;
+.era:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #ffcc00;  /* Gold circle to mark each era */
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.era-name {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #e7e7e7;  /* Light text for good contrast */
+}
+
+.era-period {
+  display: block;
+  font-size: 1.2em;
+  color: #ffcc00;  /* Yellow text for period */
+  margin-top: 5px;
+}
+
+.era-description {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #d1d1d1;  /* Lighter color for description text */
+  background-color: rgba(255, 255, 255, 0.1);  /* Subtle background for the description */
+  padding: 10px;
+  border-left: 4px solid #ffcc00;  /* Highlight the left border of the description */
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+/* Hover effect for the era names */
+.era-name:hover {
+  color: #ffcc00;
+  transition: color 0.3s ease;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 30px;
+  }
+
+  .timeline:before {
+    left: 15px;
+  }
+
+  .era:before {
+    left: -10px;
+  }
+
+  .era-description {
+    max-width: 100%;
+  }
 }

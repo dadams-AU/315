@@ -16,7 +16,7 @@
 @media (max-width: 600px) {
     .reveal { font-size: 1.5rem; } /* Smaller size for small screens */
 }
-
+-
 @media (min-width: 1200px) {
     .reveal { font-size: 2.5rem; } /* Slightly larger size for big screens */
 }
