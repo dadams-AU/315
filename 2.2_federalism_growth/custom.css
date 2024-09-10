@@ -1,77 +1,125 @@
+/* Custom CSS for Reveal.js Lecture Slides */
+
 /* Root font size for easier rem units */
 :root {
-  font-size: 18px;
+  font-size: 16px;
 }
 
+/* Responsive base font size */
 .reveal {
-  font-size: 2.2rem;
-  color: #e7e7e7;
-  background-color: #1c1c1c;
-  line-height: 1.5;
+  font-size: 2rem; /* Default size, equivalent to 32px if root is 16px */
 }
 
-/* Scrollable sections */
-.reveal .slides section {
-  overflow-y: auto;
-  padding: 1rem;
-  flex-wrap: wrap;
-  height: 100%;
+/* Responsive font sizes */
+@media (max-width: 600px) {
+  .reveal { font-size: 1.5rem; } /* Smaller size for small screens */
 }
 
-/* Hover effects on headings */
-.reveal h2:hover {
-  color: #ffcc00;
-  transition: color 0.3s ease-in-out;
+@media (min-width: 1200px) {
+  .reveal { font-size: 2.5rem; } /* Larger size for big screens */
 }
 
-/* Highlight current slide */
-.reveal .slides section:target {
-  animation: slideIn 0.5s ease-in-out;
+/* Slide layout and alignment */
+.reveal .slides {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-@keyframes slideIn {
-  from { opacity: 0; transform: translateY(50px); }
-  to { opacity: 1; transform: translateY(0); }
+.reveal .slides > section {
+  width: 100%;
 }
 
-/* Animated background for special slides */
-.reveal .highlight-slide {
-  background: linear-gradient(90deg, #1c1c1c, #000000);
-  animation: backgroundScroll 5s linear infinite;
+/* Text alignment */
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides h5,
+.reveal .slides h6 {
+  text-align: center;
 }
 
-@keyframes backgroundScroll {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+.reveal .slides p,
+.reveal .slides ul,
+.reveal .slides ol {
+  text-align: left;
 }
 
-/* Code block styling */
+/* Improved readability */
+.reveal {
+  line-height: 1.4;
+}
+
+/* Responsive heading sizes */
+.reveal h1 { font-size: 2.5em; }
+.reveal h2 { font-size: 2em; }
+.reveal h3 { font-size: 1.5em; }
+.reveal h4 { font-size: 1.25em; }
+
+/* Emphasis for important points */
+.reveal strong {
+  color: #e7ad52;
+}
+
+/* Code blocks */
 .reveal pre {
   max-height: 400px;
   overflow-y: auto;
-  font-size: 1em;
-  background-color: #2b2b2b;
-  color: #f1f1f1;
-  padding: 1rem;
-  border-radius: 5px;
+  font-size: 0.8em;
 }
 
+/* Images */
 .reveal img {
-  max-height: 60vh;
+  max-height: 60vh; /* Responsive image height */
+  width: auto;
   margin: 20px auto;
-  display: block;
-  border: 2px solid #fff;
 }
 
-/* Highlight box for emphasis */
+/* Custom classes */
+.reveal .small-text {
+  font-size: 0.7em;
+}
+
 .reveal .highlight-box {
-  background-color: rgba(255, 255, 0, 0.3);
-  border: 2px solid #ffcc00;
+  background-color: rgba(255, 255, 0, 0.2);
+  border: 2px solid #e7ad52;
   border-radius: 10px;
   padding: 10px;
   margin: 10px 0;
 }
 
+/* Improved list spacing */
+.reveal ul, 
+.reveal ol {
+  display: block;
+  margin-left: 1.5em;
+}
+
+.reveal li {
+  margin-bottom: 0.5em;
+}
+
+/* Footer for slide numbers or other persistent info */
+.reveal .slide-footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 0.4em;
+  color: #888;
+}
+
+/* Transitions */
+.reveal .slides section {
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+/* Ensure content fits on slides */
+.reveal .slides section {
+  height: 100%;
+  overflow-y: auto;
+}
 /* Federalism Eras Timeline */
 .timeline {
   position: relative;
@@ -139,21 +187,3 @@
   transition: color 0.3s ease;
 }
 
-/* Responsive improvements */
-@media (max-width: 768px) {
-  .timeline {
-    padding-left: 30px;
-  }
-
-  .timeline:before {
-    left: 15px;
-  }
-
-  .era:before {
-    left: -10px;
-  }
-
-  .era-description {
-    max-width: 100%;
-  }
-}
