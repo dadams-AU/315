@@ -14,6 +14,7 @@ To view the lectures, simply click on the links below:
 5. [Week 3, Lecture 1: Understanding Policymaking: Interaction, Change, Process](3.1_understanding_policymaking/index.html)
 6. [Week 3, Lecture 2: Policy Legitimacy, Implementation, and Evaluation](3.2_legitimacy_implementation_evaluation/index.html)
 7. [Week 3, Lecture 3: Policy Tools and Design](3.3_policy_tools/index.html)
+8. [Week 4, Lecture 1: Policy Typologies](4.1_policy_typologies/4-1_policy_typologies.pdf)
 
 
 ## Navigation Tips
