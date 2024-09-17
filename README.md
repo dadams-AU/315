@@ -65,7 +65,7 @@ Several of these presentations use reveal.js and are best viewed in an up-to-dat
 
 ## Additional Resources
 
-- [Course Syllabus]([link-to-your-syllabus.pdf](https://raw.githubusercontent.com/dadams-AU/syllabi/main/POSC%20315%20Intro%20Policy/2024-25%20Fall/posc315_fall_2024.pdf))
+- [Course Syllabus](https://raw.githubusercontent.com/dadams-AU/syllabi/main/POSC%20315%20Intro%20Policy/2024-25%20Fall/posc315_fall_2024.pdf)
 - [University Library](https://www.library.fullerton.edu/)
 - [Writing Center](https://english.fullerton.edu/writing_center/)
 
