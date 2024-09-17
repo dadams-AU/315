@@ -1,7 +1,10 @@
  
 # POSC 315 - Introduction to Public Policy
+*Created and maintained by David P. Adams, Ph.D.*
 
-Welcome to POSC 315 - Introduction to Public Policy. This repository contains the lecture presentations for the course, hosted on GitHub Pages and [315.dadams.io](https://315.dadams.io). Available on GitHub at [https://github.com/dadams-AU/315](https://github.com/dadams-AU/315). 
+
+Welcome to POSC 315 - Introduction to Public Policy. I’m David P. Adams, Ph.D., your instructor for this course. This repository contains the lecture presentations for the course, hosted on GitHub Pages and [315.dadams.io](https://315.dadams.io). Available on GitHub at [https://github.com/dadams-AU/315](https://github.com/dadams-AU/315). 
+
 
 ## Course Lectures
 
@@ -42,12 +45,13 @@ If you wish to download the slides for offline viewing:
 
 ## Technical Requirements
 
-Several of these presentations use reveal.js and are best viewed in an up-to-date web browser. If you experience any issues, try updating your browser to the latest version.
+Several of these presentations use reveal.js and are best viewed in an up-to-date web browser. If you experience any issues, try updating your browser to the latest version. For any questions or to contribute, feel free to contact me, David P. Adams, at dpadams@fullerton.edu.
+
 
 ## Course Information
 
 - **Course**: POSC 315 - Introduction to Public Policy
-- **Instructor**: David P. Adams, Ph.D.
+- **Instructor**: David P. Adams, Ph.D., Associate Professor of Public Administration
 - **Office Hours**: Tuesday and Thursday, 9:30 AM - 11:00 AM
 - **Office Location**: 516 Gordon Hall
 - **Email**: dpadams@fullerton.edu
@@ -75,7 +79,7 @@ If you encounter any problems with the presentations or have suggestions for imp
 If you would like to contribute to the development of these materials, please follow these steps:
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes and commit them (`git commit -m 'Add feature'`).
+3. Make and commit your changes (`git commit -m 'Add feature'`).
 4. Push to the branch (`git push origin feature-name`).
 5. Open a pull request.
 
@@ -98,6 +102,8 @@ A: Absolutely! Feel free to contact the instructor or open an issue in this repo
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 
----
 
-Last updated: 2024-09-02
+---
+Last updated: 2024-09-16 
+Maintained by: David P. Adams, Ph.D.
+
