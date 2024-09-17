@@ -3,27 +3,34 @@
 
 Welcome to POSC 315 - Introduction to Public Policy. This repository contains the lecture presentations for the course, hosted on GitHub Pages and [315.dadams.io](https://315.dadams.io).
 
+## Course Lectures
+
+### Week 1
+1. [Introduction to Public Policy](https://raw.githubusercontent.com/dadams-AU/slides-POSC-315/main/slide%20deck/01_introduction/Introduction%20to%20Public%20Policy%20Beamer.pdf)
+2. [Policy Process Overview](https://raw.githubusercontent.com/dadams-AU/slides-POSC-315/main/slide%20deck/02_whatispolicy/what_is_public_policy.pdf)
+
+### Week 2
+1. [The Constitution, Foundations, Official Actors](2.1_constitution_foundations/index.html)
+2. [Federalism, Government Growth, and State Policy Capacity](2.2_federalism_growth/index.html)
+
+### Week 3
+1. [Understanding Policymaking: Interaction, Change, Process](3.1_understanding_policymaking/index.html)
+2. [Policy Legitimacy, Implementation, and Evaluation](3.2_legitimacy_implementation_evaluation/index.html)
+3. [Policy Tools and Design](3.3_policy_tools/index.html)
+
+### Week 4
+1. [Policy Typologies](4.1_policy_typologies/4-1_policy_typologies.pdf)
+
 ## Accessing the Lectures
 
-To view the lectures, simply click on the links below:
+To view a lecture, click on its title in the list above. You can also download the slides for offline viewing:
 
-1. [Week 1, Lecture 1: Introduction to Public Policy](https://raw.githubusercontent.com/dadams-AU/slides-POSC-315/main/slide%20deck/01_introduction/Introduction%20to%20Public%20Policy%20Beamer.pdf)
-2. [Week 1, Lecture 2: Policy Process Overview](https://raw.githubusercontent.com/dadams-AU/slides-POSC-315/main/slide%20deck/02_whatispolicy/what_is_public_policy.pdf)
-3. [Week 2, Lecture 1: The Constitution, Foundations, Offical Actors ](2.1_constitution_foundations/index.html)
-4. [Week 2, Lecture 2: Federalism, Government Growth, and State Policy Capacity](2.2_federalism_growth/index.html)
-5. [Week 3, Lecture 1: Understanding Policymaking: Interaction, Change, Process](3.1_understanding_policymaking/index.html)
-6. [Week 3, Lecture 2: Policy Legitimacy, Implementation, and Evaluation](3.2_legitimacy_implementation_evaluation/index.html)
-7. [Week 3, Lecture 3: Policy Tools and Design](3.3_policy_tools/index.html)
-8. [Week 4, Lecture 1: Policy Typologies](4.1_policy_typologies/4-1_policy_typologies.pdf)
+1. Right-click on the lecture link
+2. Select "Save link as..."
+3. Choose a location on your computer and save the file
+4. Open the saved file in your web browser or PDF viewer
 
-
-## Navigation Tips
-
-- Use the arrow keys or the arrow buttons on the bottom right to navigate through the slides.
-- Press 'F' to enter fullscreen mode.
-- Press 'ESC' to exit fullscreen mode or to access the slide overview.
-- Press 'S' to open the speaker notes view.
-
+[Rest of the README content remains the same...]
 ## Downloading Slides
 
 If you wish to download the slides for offline viewing:
@@ -35,7 +42,7 @@ If you wish to download the slides for offline viewing:
 
 ## Technical Requirements
 
-These presentations use reveal.js and are best viewed in an up-to-date web browser. If you experience any issues, try updating your browser to the latest version.
+Several of these presentations use reveal.js and are best viewed in an up-to-date web browser. If you experience any issues, try updating your browser to the latest version.
 
 ## Course Information
 
