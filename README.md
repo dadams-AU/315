@@ -56,7 +56,6 @@ Several of these presentations use reveal.js and are best viewed in an up-to-dat
 - **Office Location**: 516 Gordon Hall
 - **Email**: dpadams@fullerton.edu
 - **Website**: [https://dadams.io](https://dadams.io)
-- **Appointments**: [Schedule an Appointment](https://dadams.io/appointments)
 - **Syllabus**: [Download Syllabus](https://raw.githubusercontent.com/dadams-AU/syllabi/main/POSC%20315%20Intro%20Policy/2024-25%20Fall/posc315_fall_2024.pdf)  
 
 ## Related Repositories
@@ -105,5 +104,6 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ---
 Last updated: 2024-09-16 
+
 Maintained by: David P. Adams, Ph.D.
 
