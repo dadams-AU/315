@@ -11,7 +11,6 @@ aspectratio: 169
 margin: 1.5in
 ---
 
-
 # Slide 2: Lecture Overview
 
 - **Topics:**
