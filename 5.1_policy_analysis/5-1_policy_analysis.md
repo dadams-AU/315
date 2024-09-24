@@ -1,8 +1,10 @@
 ---
-title: Policy Analysis
+title: 5.1 Policy Analysis
 subtitle: POSC 315 - Introduction to Public Policy
 author: David P. Adams, Ph.D.
-date: Fall 2024 | Week 5, Lecture 1
+semester: Fall 2024
+week: Week 5
+lecture: Lecture 1
 theme: metropolis
 aspectratio: 169
 margin: 1.5in 

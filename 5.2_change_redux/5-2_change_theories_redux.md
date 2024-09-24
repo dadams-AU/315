@@ -1,8 +1,10 @@
 ---
-title: "Actor Interaction for Policy Change - Redux"
+title: "5.2 Actor Interaction for Policy Change - Redux"
 subtitle: "POSC 315 - Introduction to Public Policy"
 author: "David P. Adams, Ph.D."
-date: "Fall 2024 | Week 5, Lecture 2"
+semester: Fall 2024
+week: Week 5
+lecture: Lecture 2
 theme: metropolis
 highlight: tango
 aspectratio: 169
