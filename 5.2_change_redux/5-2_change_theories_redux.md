@@ -108,7 +108,7 @@ margin: 1.5in
 
 # IAD Example from My Research
 
-![Watershed Management](WatershedCollaborationModel.png)
+![Watershed Management](WatershedCollaborationModel.pdf)
 
 ---
 
@@ -133,6 +133,20 @@ margin: 1.5in
     - Personal time and effort required
   - **Policy Application:**
     - Making voting easier increases turnout (e.g., mail-in ballots)
+
+---
+
+# Slide X: Calculus of Voting Formula
+
+**A Theory of the Calculus of Voting** (Riker and Ordeshook, 1968):
+
+\[ V = pB - C + D \]
+
+- **V:** Probability that the voter will turn out
+- **p:** Probability that the vote will matter
+- **B:** Utility benefit of voting (differential benefit of one candidate winning over the other)
+- **C:** Costs of voting (time and effort spent)
+- **D:** Citizen duty, goodwill feeling, psychological and civic benefit of voting (not included in Downs's original model)
 
 ---
 
