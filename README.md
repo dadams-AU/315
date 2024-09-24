@@ -26,7 +26,7 @@ Welcome to POSC 315 - Introduction to Public Policy. I’m David P. Adams, Ph.D.
 
 ### Week 5
 1. [Policy Analysis](5.1_policy_analysis/5-1_policy_analysis.pdf)
-2. [Actor Interaction for Policy Change - Redux](5.2_change_redux/5-2_change_theories_redux.md)
+2. [Actor Interaction for Policy Change - Redux](5.2_change_redux/5-2_change_theories_redux.pdf)
 
 ## Accessing the Lectures
 
