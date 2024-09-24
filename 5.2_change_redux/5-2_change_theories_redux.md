@@ -1,12 +1,12 @@
 ---
-title: Actor Interaction for Policy Change - Redux 
-subtitle: POSC 315 - Introduction to Public Policy
-author: David P. Adams, Ph.D.
-date: Fall 2024 | Week 5, Lecture 2
-theme: metropolis 
+title: "Actor Interaction for Policy Change - Redux"
+subtitle: "POSC 315 - Introduction to Public Policy"
+author: "David P. Adams, Ph.D."
+date: "Fall 2024 | Week 5, Lecture 2"
+theme: metropolis
 highlight: tango
 aspectratio: 169
-margin: 1.5in 
+margin: 1.5in
 ---
 
 
@@ -93,6 +93,7 @@ margin: 1.5in
     - Sustainable use of the resource benefiting the community
 
 ---
+
 # Slide 8: IAD Example from My Research
 
 - **Title:** "Does Collaboration Matter?"
@@ -103,6 +104,13 @@ margin: 1.5in
   - Stakeholder engagement enhances policy effectiveness
 
 ---
+
+# IAD Example from My Research
+
+![Watershed Management](WatershedCollaborationModel.png)
+
+---
+
 # Slide 9: Rational Choice Theory
 
 - **Key Concepts:**
@@ -153,7 +161,6 @@ margin: 1.5in
 - Allows businesses to adapt gradually
 - Reduces political opposition
 - Provides opportunities for assessment and adjustment
-
 
 ---
 
@@ -209,8 +216,6 @@ margin: 1.5in
   - Rapid adoption of telehealth policies during pandemic
   - Permanent expansion of Medicare telehealth coverage
 - **Policy Entrepreneurs:** Advocates for telehealth expansion
-
-
 
 ---
 

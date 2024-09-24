@@ -24,6 +24,10 @@ Welcome to POSC 315 - Introduction to Public Policy. I’m David P. Adams, Ph.D.
 ### Week 4
 1. [Policy Typologies](4.1_policy_typologies/4-1_policy_typologies.pdf)
 
+### Week 5
+1. [Policy Analysis](5.1_policy_analysis/5-1_policy_analysis.pdf)
+2. [Actor Interaction for Policy Change - Redux](5.2_change_redux/5-2_change_theories_redux.md)
+
 ## Accessing the Lectures
 
 To view a lecture, click on its title in the list above. You can also download the slides for offline viewing:
