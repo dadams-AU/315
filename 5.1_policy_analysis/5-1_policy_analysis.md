@@ -53,6 +53,8 @@ margin: 1.5in
 - **Impact:**
   - Shapes the range of possible solutions
   - Influences stakeholder engagement
+- **Group Activity:**
+  - Interactive exercise to define a real-world problem statement and identify key stakeholders involved.
 
 ---
 
