@@ -48,7 +48,7 @@ If you wish to download the slides for offline viewing:
 1. Right-click on the lecture link
 2. Select "Save link as..."
 3. Choose a location on your computer and save the file
-4. Open the saved HTML file in your web browser
+4. Open the saved HTML or .pdf file in your web browser
 
 ## Technical Requirements
 
@@ -110,7 +110,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 
 ---
-Last updated: 2024-09-16 
+Last updated: 2024-09-30
 
 Maintained by: David P. Adams, Ph.D.
 
