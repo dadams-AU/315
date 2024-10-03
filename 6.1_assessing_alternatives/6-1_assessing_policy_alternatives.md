@@ -11,9 +11,6 @@ aspectratio: 169
 margin: 1.5in
 ---
 
-# Feeling wonky today? 
-![Policy Alternatives](alternatives.png){ width=45% }
-
 # Slide 1: Feeling Wonky Today?
 ![Policy Alternatives](alternatives.png){ width=45% }
 
@@ -26,7 +23,7 @@ margin: 1.5in
 - **Distinguish between several kinds of decision-making and impact analysis**
 - **Compare the ethical approach of policy analysis against other methods**
 
-**Mentimeter Word Cloud**: *"When you think of COVID-19 policies, what comes to mind?"*
+**Opening Question**: *"When you think of COVID-19 policies, what comes to mind?"*
 
 ---
 
@@ -68,8 +65,6 @@ margin: 1.5in
   - **Definition**: **Fairness** in distributing costs and benefits.
   - **Limits**: Difficult to measure; disagreements over **fair process** vs. **equal outcomes**.
   - **Example**: Assessing vaccine distribution for vulnerable communities.
-
-**Mentimeter Q&A**: *"Was vaccine distribution equitable during the pandemic? Why or why not?"*
 
 ---
 
@@ -170,7 +165,7 @@ margin: 1.5in
   - COVID-19 illustrated the need to balance **effectiveness**, **equity**, and **freedom**.
   - **Political feasibility** and **public involvement** are essential for successful implementation.
 
-**Mentimeter Multiple Choice**: *"If you were a policymaker during COVID-19, which criterion would you prioritize?" (Effectiveness, Equity, Liberty/Freedom)*
+**Final Question**: *"If you were a policymaker during COVID-19, which criterion would you prioritize?" (Effectiveness, Equity, Liberty/Freedom)*
 
 ---
 
