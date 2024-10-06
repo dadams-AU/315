@@ -3,7 +3,7 @@
 *Created and maintained by David P. Adams, Ph.D.*
 
 
-Welcome to POSC 315 - Introduction to Public Policy. I’m David P. Adams, Ph.D., your instructor for this course. This repository contains the lecture presentations for the course, hosted on GitHub Pages and [315.dadams.io](https://315.dadams.io). Available on GitHub at [https://github.com/dadams-AU/315](https://github.com/dadams-AU/315). 
+Welcome to POSC 315 - Introduction to Public Policy. This repository contains the lecture presentations for the course, hosted on GitHub Pages and [315.dadams.io](https://315.dadams.io). Available on GitHub at [https://github.com/dadams-AU/315](https://github.com/dadams-AU/315). 
 
 
 ## Course Lectures
