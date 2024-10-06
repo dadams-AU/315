@@ -31,6 +31,9 @@ Welcome to POSC 315 - Introduction to Public Policy. I’m David P. Adams, Ph.D.
 ### Week 6
 1. [Assessing Alternatives](6.1_assessing_alternatives/6-1_assessing_policy_alternatives.pdf)
 
+### Week 7
+1. [Policy Implementation](7.1_policy_implementation/index.html)
+
 ## Accessing the Lectures
 
 To view a lecture, click on its title in the list above. You can also download the slides for offline viewing:
