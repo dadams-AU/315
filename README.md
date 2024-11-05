@@ -34,6 +34,18 @@ Welcome to POSC 315 - Introduction to Public Policy. This repository contains th
 ### Week 7
 1. [Policy Implementation](7.1_implementation/index.html)
 
+### Week 8 -- Midterm Exam
+
+### Week 9 
+1. [Policy Evaluation](9.1_evaluation/index.html)
+
+### Week 10
+1. [Social Policy](10.1_social_policy/index.html)
+2. [Health Policy](10.2_health_policy/index.html)
+
+### Week 11
+1. [Environmental and Energy Policy](11_environmental_energy_policy/enviro_energy_policy_lecture.pdf)
+
 ## Accessing the Lectures
 
 To view a lecture, click on its title in the list above. You can also download the slides for offline viewing:
