@@ -47,7 +47,7 @@ Welcome to POSC 315 - Introduction to Public Policy. This repository contains th
 1. [Environmental and Energy Policy](11_environmental_energy_policy/enviro_energy_policy_lecture.pdf)
 
 ### Week 12
-1. [Foreign Policy and Homeland Security](12_foreign_and_dhs/foreign_and_homeland.md)
+1. [Foreign Policy and Homeland Security](12_foreign_and_dhs/foreign_and_homeland.pdf)
 
 ## Accessing the Lectures
 
@@ -128,7 +128,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 
 ---
-Last updated: 2024-09-30
+Last updated: 2024-11-12
 
 Maintained by: David P. Adams, Ph.D.
 
