@@ -49,6 +49,9 @@ Welcome to POSC 315 - Introduction to Public Policy. This repository contains th
 ### Week 12
 1. [Foreign Policy and Homeland Security](12_foreign_and_dhs/foreign_and_homeland.pdf)
 
+### Week 13
+1. [Conflict and Collaboration in Policymaking](13_conflict_and_collab/conflict_and_collaboration.pdf)
+
 ## Accessing the Lectures
 
 To view a lecture, click on its title in the list above. You can also download the slides for offline viewing:

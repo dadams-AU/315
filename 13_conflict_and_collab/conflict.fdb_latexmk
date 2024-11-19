@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1732004561.57036 "/home/dadams/Repos/315/13_conflict_and_collab/conflict.tex" "conflict.pdf" "conflict" 1732004564.59187 0
-  "/home/dadams/Repos/315/13_conflict_and_collab/conflict.tex" 1732004558.28954 40753 252c7aeac9efc0c2f293452b6556a96a ""
+["pdflatex"] 1732004952.39119 "/home/dadams/Repos/315/13_conflict_and_collab/conflict.tex" "conflict.pdf" "conflict" 1732004954.63331 0
+  "/home/dadams/Repos/315/13_conflict_and_collab/conflict.tex" 1732004949.95793 40753 252c7aeac9efc0c2f293452b6556a96a ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716849630 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1716849630 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1716849630 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -233,10 +233,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1716849630 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1730065529.13765 5312047 b07fcd2a9090df96fc745b92a3db793b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1730065486 7113015 d82074ca3c5cc5a45b9d4e15c6451455 ""
-  "conflict.aux" 1732004564.45956 4185 937173a1e63ce33f7d58eca5071648d8 "pdflatex"
-  "conflict.nav" 1732004564.45956 2888 5b5affa23c22f0bba6774f4d02c1f9c4 "pdflatex"
-  "conflict.out" 1732004562.28955 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "conflict.tex" 1732004558.28954 40753 252c7aeac9efc0c2f293452b6556a96a ""
+  "conflict.aux" 1732004954.51795 4185 937173a1e63ce33f7d58eca5071648d8 "pdflatex"
+  "conflict.nav" 1732004954.51795 2888 5b5affa23c22f0bba6774f4d02c1f9c4 "pdflatex"
+  "conflict.out" 1732004952.93128 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "conflict.tex" 1732004949.95793 40753 252c7aeac9efc0c2f293452b6556a96a ""
   (generated)
   "conflict.aux"
   "conflict.log"
