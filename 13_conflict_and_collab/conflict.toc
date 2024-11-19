@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Defining Policy Conflicts}{4}{0}{1}
+\beamer@sectionintoc {2}{Managing Policy Conflicts}{11}{0}{2}
+\beamer@sectionintoc {3}{Collaborative Approaches}{17}{0}{3}
