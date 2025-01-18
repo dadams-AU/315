@@ -1,0 +1,292 @@
+\documentclass[12pt]{beamer}
+\usetheme{metropolis}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{calc}
+\usepackage{tikz}
+\usepackage{hyperref}
+
+% Setup for faculty images
+\newlength{\imageheight}
+\setlength{\imageheight}{3.5cm}
+
+% Define CSUF brand colors
+\definecolor{titanblue}{HTML}{00244E}
+\definecolor{mediumblue}{HTML}{0F3F8C}
+\definecolor{skyblue}{HTML}{EBFBFF}
+\definecolor{titanorange}{HTML}{FF7900}
+\definecolor{titangray}{HTML}{F5F5F5}
+\definecolor{titantext}{HTML}{222222}
+
+% Customize metropolis theme colors
+\setbeamercolor{normal text}{fg=titantext, bg=white}
+\setbeamercolor{alerted text}{fg=titanorange}
+\setbeamercolor{example text}{fg=mediumblue}
+
+% Title page colors
+\setbeamercolor{title}{fg=titanblue, bg=white}
+\setbeamercolor{subtitle}{fg=mediumblue, bg=white}
+\setbeamercolor{institute}{fg=titanorange, bg=white}
+\setbeamercolor{date}{fg=titanblue, bg=white}
+
+% Frame title colors
+\setbeamercolor{frametitle}{fg=white, bg=titanblue}
+\setbeamercolor{framesubtitle}{fg=mediumblue, bg=white}
+
+% Block environment colors
+\setbeamercolor{block title}{fg=white, bg=titanblue}
+\setbeamercolor{block body}{fg=titantext, bg=skyblue!10}
+
+% Item colors
+\setbeamercolor{itemize item}{fg=titanorange}
+\setbeamercolor{itemize subitem}{fg=mediumblue}
+\setbeamercolor{itemize subsubitem}{fg=titanblue}
+
+% Footer and header colors
+\setbeamercolor{footer}{fg=titantext}
+\setbeamercolor{header}{fg=titanblue}
+
+% Customize fonts
+\setbeamerfont{title}{size=\Large, series=\bfseries}
+\setbeamerfont{subtitle}{size=\large}
+\setbeamerfont{frametitle}{size=\large, series=\bfseries}
+\setbeamerfont{itemize/enumerate body}{size=\small}
+\setbeamerfont{itemize/enumerate subbody}{size=\footnotesize}
+
+% Simple title page template
+\defbeamertemplate*{title page}{customized}[1][]
+{
+    \vspace{1cm}
+    {\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par}
+    \vspace{0.5cm}
+    {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}
+    \vspace{0.5cm}
+    {\usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate\par}
+    \vfill
+    {\insertinstitute\par}
+}
+
+% Add progress bar
+\makeatletter
+\setbeamertemplate{headline}{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.4cm,dp=0cm]{titanblue}%
+    \begin{tikzpicture}
+      \fill[titanorange] (0,0) rectangle (\the\paperwidth*\insertframenumber/\inserttotalframenumber,0.4cm);
+    \end{tikzpicture}%
+  \end{beamercolorbox}%
+}
+\makeatother
+
+\begin{document}
+
+\title{The Constitutional Order and Foundations of American Governance}
+\subtitle{POSC 315: Introduction to Public Policy}
+\author{Dr. David P. Adams}
+\date{Week 2, Lecture 1}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}{Introduction}
+    \begin{itemize}
+        \item Justice Scalia's death sparked debates over judicial appointments.
+        \item Political gridlock highlights the importance of constitutional interpretation.
+        \item The evolving role of policy analysis in navigating governance challenges.
+        \item \textbf{Example:} Current challenges in Supreme Court confirmations.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Learning Objectives}
+    By the end of this lecture, you will be able to:
+    \begin{itemize}
+        \item Define and identify key institutions in American governance.
+        \item Explain the role of the Constitution in policymaking.
+        \item Analyze the impact of separation of powers on policy development.
+        \item Apply constitutional principles to current policy issues.
+        \item Discuss the concept of federalism and its implications for policy.
+    \end{itemize}
+\end{frame}
+
+\section{Institutions}
+\begin{frame}{Institutions}
+    \begin{block}{Definition}
+        Rules that govern interactions and transactions.
+    \end{block}
+    \begin{itemize}
+        \item \textbf{Examples:}
+        \begin{itemize}
+            \item Family, Business, Religion.
+            \item Hospitals, Schools, Communities.
+            \item Capitalism, Marriage, Voting.
+            \item Education, Legislatures.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Importance of Institutions in Public Policy}
+    \begin{itemize}
+        \item Shape behavior and decision-making.
+        \item Provide structure for policy implementation.
+        \item Influence policy outcomes.
+        \item Create paths of dependency in policy evolution.
+        \item \textbf{Example:} Voting systems shaping electoral outcomes.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Discussion Prompt - What Institutions Matter?}
+    \begin{block}{Group Discussion}
+        \begin{itemize}
+            \item Which institutions do you interact with most in your daily life?
+            \item How do they influence your decisions?
+        \end{itemize}
+    \end{block}
+    \begin{itemize}
+        \item Small group discussion (5 minutes).
+        \item Share key insights with the class.
+    \end{itemize}
+\end{frame}
+
+\section{The Constitutional Order}
+\begin{frame}{The Constitution and Policymaking}
+    \begin{itemize}
+        \item \textbf{Living Document:} Adaptable through amendments and interpretation.
+        \item \textbf{Purposeful Vagueness:} Encourages flexibility.
+        \item \textbf{Elasticity:} Supports growth and responsiveness.
+        \item \textbf{Example:} Evolution of the Commerce Clause in regulating markets.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Key Constitutional Provisions}
+    \begin{itemize}
+        \item \textbf{Article I, Section 8:}
+        \begin{itemize}
+            \item Commerce Clause.
+            \item Elastic Clause.
+        \end{itemize}
+        \item \textbf{Amendment 14:}
+        \begin{itemize}
+            \item Due Process.
+            \item Equal Protection.
+        \end{itemize}
+        \item \textbf{Amendment 10:}
+        \begin{itemize}
+            \item Federalism Structure.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Constitutional Interpretation}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \textbf{Interpretative Approaches:}
+        \begin{itemize}
+            \item Originalism vs. Living Constitution.
+            \item Strict vs. Broad interpretation.
+        \end{itemize}
+        
+        \column{0.5\textwidth}
+        \textbf{Key Concepts:}
+        \begin{itemize}
+            \item Role of precedent.
+            \item Impact on policy.
+            \item Judicial review.
+        \end{itemize}
+    \end{columns}
+    \textbf{Example:} Landmark cases like Brown v. Board of Education.
+\end{frame}
+
+\section{Separation of Powers}
+\begin{frame}{Three Branches of Government}
+    \begin{enumerate}
+        \item \textbf{Legislative (Article I):} Makes laws.
+        \item \textbf{Executive (Article II):} Enforces laws.
+        \item \textbf{Judicial (Article III):} Interprets laws.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Role of Checks and Balances}
+    \begin{itemize}
+        \item Prevents concentration of power.
+        \item Contributes to policymaking complexity.
+        \item \textbf{Examples:}
+        \begin{itemize}
+            \item Veto power.
+            \item Judicial review.
+            \item Advice and consent.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\section{Policy Actors}
+\begin{frame}{Official Policy Actors}
+    \begin{itemize}
+        \item \textbf{Legislative Branch:}
+        \begin{itemize}
+            \item Drafting and passing laws.
+            \item Committees and subcommittees.
+        \end{itemize}
+        \item \textbf{Executive Branch:}
+        \begin{itemize}
+            \item Proposing legislation.
+            \item Executive orders.
+        \end{itemize}
+        \item \textbf{Judicial Branch:}
+        \begin{itemize}
+            \item Interpreting laws.
+            \item Judicial review.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Unofficial Policy Actors}
+    \begin{itemize}
+        \item \textbf{Interest Groups:}
+        \begin{itemize}
+            \item Lobbying and advocacy.
+            \item Campaign contributions.
+        \end{itemize}
+        \item \textbf{Media:}
+        \begin{itemize}
+            \item Agenda-setting.
+            \item Framing issues.
+        \end{itemize}
+        \item \textbf{Think Tanks:}
+        \begin{itemize}
+            \item Policy research.
+            \item Public opinion influence.
+        \end{itemize}
+    \end{itemize}
+    \textbf{Activity:} Investigate lobbying practices via \href{https://wethevoters.org}{We the Voters} series.
+\end{frame}
+
+\section{Federalism}
+\begin{frame}{Federalism Overview}
+    \begin{block}{Definition}
+        Division of power between national and state governments.
+    \end{block}
+    \begin{itemize}
+        \item \textbf{Constitutional Basis:} 10th Amendment.
+        \item \textbf{Types of Powers:}
+        \begin{itemize}
+            \item Enumerated powers (federal).
+            \item Reserved powers (states).
+            \item Concurrent powers (shared).
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Improving Policy Capacity}
+    \begin{itemize}
+        \item Invest in public education and engagement initiatives.
+        \item Encourage bipartisan cooperation to reduce gridlock.
+        \item Strengthen state policy capacity through federal support.
+    \end{itemize}
+    \textbf{Activity:} Analyze public trust trends via \href{http://www.pewresearch.org}{Pew Research Center}.
+\end{frame}
+
+\begin{frame}{For Next Time}
+
+\end{frame}
+
+\end{document}
